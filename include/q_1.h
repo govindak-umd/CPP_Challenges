@@ -12,6 +12,7 @@
  * @param num_array
  * @param n
  */
+
 void findSumCombos(size_t len_num_array, int num_array[], int n){
 
     int low, high, i, j;
@@ -44,6 +45,5 @@ void findSumCombos(size_t len_num_array, int num_array[], int n){
     else{
         std::cout << "Sorry, no combinations were found. Try again" << std::endl;
     }
-
 
 }
