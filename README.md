@@ -2,7 +2,7 @@
 
 This repository is used to solve some C++ Challenges
 
-Question 1. Find a pair with the given sum in an array
+Question 1. Find pair with the given sums in an array and return them as a tuple
 
 ## Code Challenges:
 
