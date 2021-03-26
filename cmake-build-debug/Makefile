@@ -169,33 +169,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/q_1.obj: src/q_1.cpp.obj
-
-.PHONY : src/q_1.obj
-
-# target to build an object file
-src/q_1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/q_1.cpp.obj
-.PHONY : src/q_1.cpp.obj
-
-src/q_1.i: src/q_1.cpp.i
-
-.PHONY : src/q_1.i
-
-# target to preprocess a source file
-src/q_1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/q_1.cpp.i
-.PHONY : src/q_1.cpp.i
-
-src/q_1.s: src/q_1.cpp.s
-
-.PHONY : src/q_1.s
-
-# target to generate assembly for a file
-src/q_1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/q_1.cpp.s
-.PHONY : src/q_1.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -208,9 +181,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/q_1.obj
-	@echo ... src/q_1.i
-	@echo ... src/q_1.s
 .PHONY : help
 
 

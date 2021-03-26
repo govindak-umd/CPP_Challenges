@@ -3,20 +3,6 @@
 #include<tuple>
 #include<vector>
 
-void findSumCombos(size_t, int[], int);
-
-int main(){
-    int arr[] {8, 7, 2, 5, 3, 1};
-    int combo = 10;
-
-    size_t len_num_array;
-    len_num_array = sizeof(arr)/ sizeof(arr[0]);
-
-    findSumCombos(len_num_array, arr, combo);
-
-    return 0;
-}
-
 void findSumCombos(size_t len_num_array, int num_array[], int n){
 
     int low, high, i, j;

@@ -82,10 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/main.cpp">
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/include/q_1.h">
 			<Option target="CPP_Challenges"/>
 		</Unit>
-		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/q_1.cpp">
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/include/q_2.h">
+			<Option target="CPP_Challenges"/>
+		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/main.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/CMakeLists.txt">
