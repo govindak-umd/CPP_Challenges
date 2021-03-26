@@ -39,7 +39,7 @@ void findSumCombos(size_t len_num_array, int num_array[], int n){
     }
 
 
-    if (vec_tuple.size() != 0)
+    if (!vec_tuple.empty())
     {
         std::cout << "Printing the valid combinations ... " << std::endl;
         for (auto vec_elem: vec_tuple) {
