@@ -3,6 +3,15 @@
 #include<tuple>
 #include<vector>
 
+/**
+ * Function generates all possible combinations of
+ * the numbers in the input array that generates the required
+ * sum
+ *
+ * @param len_num_array
+ * @param num_array
+ * @param n
+ */
 void findSumCombos(size_t len_num_array, int num_array[], int n){
 
     int low, high, i, j;
