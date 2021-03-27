@@ -5,6 +5,7 @@ This repository is used to solve some C++ Challenges
 | Question Number  | Question |
 | ------------- | ------------- |
 | Question 1 | Find all pairs with the given sums in an array and return them as a tuple |
+| Question 2 | Check if an array is a K-sorted array |
 
 ## Code Challenges:
 

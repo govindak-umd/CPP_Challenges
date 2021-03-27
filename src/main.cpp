@@ -13,5 +13,13 @@ int main(){
 
     // Question 2
 
+    //K-SORTED
+//    int arr[] {3,2,1,5,6,4};
+    //Not K-SORTED
+    int arr[] = {13, 8, 10, 7, 15, 14, 12};
+    size_t len_array = sizeof(arr) / sizeof(arr[0]);
+    int k = 2;
+    checkIfKSorted(arr, k, len_array);
+
     return 0;
 }
