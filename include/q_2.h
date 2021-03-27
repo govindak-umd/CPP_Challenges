@@ -19,10 +19,12 @@ int doBinarySearch(int sorted_arr[], int num, size_t len_array){
             return mid_idx;
         }
 
+        // bring down the high index limit
         else if (sorted_arr[mid_idx] > num){
             high_idx = mid_idx - 1;
         }
 
+        // bring up the low index limit
         else {
             low_idx = mid_idx + 1;
         }
