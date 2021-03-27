@@ -2,10 +2,11 @@
 
 This repository is used to solve some C++ Challenges
 
-| Question Number  | Question |
-| ------------- | ------------- |
+| Question Number  | Question | References |
+| ------------- | ------------- | ------------- |
 | Question 1 | Find all pairs with the given sums in an array and return them as a tuple |
 | Question 2 | Check if an array is a K-sorted array |
+| Question 3 | Finding the K-th smallest element in an array | [Reference for std::nth_element](https://www.geeksforgeeks.org/stdnth_element-in-cpp/) |
 
 ## Code Challenges:
 
