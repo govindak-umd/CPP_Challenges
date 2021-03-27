@@ -1,6 +1,7 @@
 #include"../include/q_1.h"
 #include"../include/q_2.h"
 #include"../include/q_3.h"
+#include"../include/q_4.h"
 
 int main(){
 
@@ -24,8 +25,9 @@ int main(){
 
     // Question 3
 
-    findKthSmallestElement();
+//    findKthSmallestElement();
 
+    // Question 4
 
 
 
