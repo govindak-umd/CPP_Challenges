@@ -2,12 +2,12 @@
 
 This repository is used to solve some C++ Challenges
 
-| Question Number  | Question | References |
-| ------------- | ------------- | ------------- |
-| Question 1 | Find all pairs with the given sums in an array and return them as a tuple ||
-| Question 2 | Check if an array is a K-sorted array ||
-| Question 3 | Finding the K-th smallest element in an array | [Reference for std::nth_element](https://www.geeksforgeeks.org/stdnth_element-in-cpp/) |
-| Question 4 | Remove duplicates from a Linked List in a single list traversal | |
+| Question Number  | Files | Question | References |
+| ------------- | ------------- | ------------- | ------------- |
+| Question 1 | *q_1.h* |Find all pairs with the given sums in an array and return them as a tuple ||
+| Question 2 | *q_1.h*|Check if an array is a K-sorted array ||
+| Question 3 | *q_1.h*|Finding the K-th smallest element in an array | [Reference for std::nth_element](https://www.geeksforgeeks.org/stdnth_element-in-cpp/) |
+| Question 4 | *LinkedList.h, LinkedList.cpp, Node.h*|Remove duplicates from a Linked List in a single list traversal | |
 
 ## Code Challenges:
 

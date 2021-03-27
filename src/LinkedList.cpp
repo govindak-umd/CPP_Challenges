@@ -1,4 +1,4 @@
-#include"../include/q_4.h"
+#include"../include/LinkedList.h"
 
 void addElem(){
 
