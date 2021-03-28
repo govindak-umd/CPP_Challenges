@@ -34,6 +34,9 @@ int main(){
     LinkedList my_ll;
 
     my_ll.createLinkedList(my_vec);
-
+    my_ll.getHead();
+    my_ll.printLinkedList();
+    my_ll.addElem(5,3);
+    my_ll.printLinkedList();
     return 0;
 }

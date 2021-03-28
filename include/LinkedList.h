@@ -6,13 +6,14 @@
 class LinkedList{
 
 private:
-    Node * head = NULL;
+    Node * head;
     int len;
 public:
-    void declareHead(Node);
-    void addElem();
-    void deleteElem();
-    void getLength();
+    void getHead();
+    void addElem(int, int);
+    void deleteElem(int);
+    int getLength();
     void printLinkedList();
     void createLinkedList(std::vector<int>);
+
 };
