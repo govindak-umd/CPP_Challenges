@@ -8,7 +8,7 @@ This repository is used to solve some C++ Challenges
 | Question 2 | *q_2.h*|Check if an array is a K-sorted array ||
 | Question 3 | *q_3.h*|Finding the K-th smallest element in an array | [Reference for std::nth_element](https://www.geeksforgeeks.org/stdnth_element-in-cpp/) |
 | Question 4 | *LinkedList.h, LinkedList.cpp, Node.h*|General functions with a Singly Linked List | |
-| Question 5 | *DoublyLinkedList.h, DoublyLinkedList.cpp, Node.h*| General functions with a Doubly Linked List| |
+| Question 5 | *DoublyLinkedList.h, DoublyLinkedList.cpp, Node.h*| General functions with a Doubly Linked List|[Reference for Doubly Linked List](https://www.softwaretestinghelp.com/doubly-linked-list-2/) |
 
 ## Code Challenges:
 
