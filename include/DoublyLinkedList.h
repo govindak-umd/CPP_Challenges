@@ -9,7 +9,9 @@ private:
     int len;
 public:
     void getHead();
-    void addElem(int, int);
+    void getTail();
+    void addElemFront(int, int);
+    void addElemEnd(int, int);
     void deleteElem(int);
     int getLength();
     void printDoublyLinkedList();

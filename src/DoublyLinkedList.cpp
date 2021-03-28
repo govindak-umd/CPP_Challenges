@@ -3,14 +3,32 @@
 void DoublyLinkedList::getHead(){
 
 }
-void DoublyLinkedList::addElem(int num, int pos){
+
+void DoublyLinkedList::getTail() {
 
 }
+
+void DoublyLinkedList::addElemFront(int num, int pos){
+
+}
+
+void DoublyLinkedList::addElemEnd(int num, int pos){
+
+}
+
 void DoublyLinkedList::deleteElem(int pos){
 
 }
+
 int DoublyLinkedList::getLength(){
-    return 0;
+    int count{0};
+    Node* head_temp = head;
+    while(head_temp!=nullptr){
+        count+=1;
+        head_temp = head_temp->next;
+    }
+    len =  count;
+    return len;
 }
 void DoublyLinkedList::printDoublyLinkedList(){
     std::cout << "Printing Doubly Linked List ... " << std::endl;
