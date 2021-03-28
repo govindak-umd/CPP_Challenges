@@ -52,5 +52,11 @@ int main(){
     my_dll.getTail();
     my_dll.addElemFront(5);
     my_dll.printDoublyLinkedList();
+    my_dll.getHead();
+    my_dll.getTail();
+    my_dll.addElemEnd(56);
+    my_dll.printDoublyLinkedList();
+    my_dll.getHead();
+    my_dll.getTail();
     return 0;
 }

@@ -4,7 +4,7 @@ void DoublyLinkedList::getHead(){
     Node* head_temp = tail;
     while(head_temp!= nullptr){
         if (head_temp->next == nullptr)
-            std::cout << "Head of the DLL is : " << head_temp->data << std::endl;
+            std::cout << "CHECK --->> Head of the DLL is : " << head_temp->data << std::endl;
         head_temp = head_temp->next;
     }
 }
@@ -13,7 +13,7 @@ void DoublyLinkedList::getTail() {
     Node* prev_temp = tail;
     while(prev_temp!= nullptr){
         if (prev_temp->prev == nullptr)
-            std::cout << "Tail of the DLL is : " << prev_temp->data << std::endl;
+            std::cout << "CHECK --->> Tail of the DLL is : " << prev_temp->data << std::endl;
         prev_temp = prev_temp->prev;
     }
 }
@@ -38,9 +38,22 @@ void DoublyLinkedList::addElemFront(int num){
 }
 
 void DoublyLinkedList::addElemEnd(int num){
-    Node* head_temp = head;
-    std::cout << "CURRENT HEAD : " << head_temp->data << std::endl;
+    Node* tail_temp = tail;
     std::cout << "Adding " << num << " to the tail of DLL ... "<< std::endl;
+    while(tail_temp!= nullptr){
+        if (tail_temp->prev == nullptr) {
+
+            Node *new_node = new Node;
+            new_node->data = num;
+            new_node->next = tail_temp;
+            new_node->prev = nullptr;
+
+            tail_temp->prev = new_node;
+            tail = new_node;
+            break;
+        }
+        tail_temp = tail_temp->prev;
+    }
 }
 
 void DoublyLinkedList::addElemInPos(int num, int pos){
@@ -64,7 +77,6 @@ int DoublyLinkedList::getLength(){
 void DoublyLinkedList::printDoublyLinkedList(){
     std::cout << "Printing Doubly Linked List ... " << std::endl;
     Node*head_temp = tail;
-    std::cout << "CURRENT TAIL : " << head_temp->data << std::endl;
 
     while(head_temp!= nullptr) {
 
