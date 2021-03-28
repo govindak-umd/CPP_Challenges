@@ -1,11 +1,11 @@
 #pragma once
-#include "Node.h"
 #include<iostream>
 #include<vector>
+#include "../include/Node.h"
 
 class DoublyLinkedList{
 private:
-    Node * head;
+    Node * head = nullptr;
     int len;
 public:
     void getHead();

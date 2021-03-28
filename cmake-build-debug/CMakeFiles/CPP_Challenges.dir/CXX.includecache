@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
-Node.h
-C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
+C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
 iostream
 -
 vector
 -
+../include/Node.h
+C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
 
 C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
 iostream
 -
 
-C:/Users/govin/Desktop/CPP_Challenges/src/LinkedList.cpp
-../include/LinkedList.h
-C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
+C:/Users/govin/Desktop/CPP_Challenges/src/DoublyLinkedList.cpp
+../include/DoublyLinkedList.h
+C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
 

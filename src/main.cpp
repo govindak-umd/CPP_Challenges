@@ -3,6 +3,7 @@
 #include"../include/q_3.h"
 #include"../include/Node.h"
 #include"../include/LinkedList.h"
+#include"../include/DoublyLinkedList.h"
 
 int main(){
 
@@ -32,7 +33,6 @@ int main(){
 
 //    std::vector<int> my_vec {19,21,32,24,45,69};
 //    LinkedList my_ll;
-//
 //    my_ll.createLinkedList(my_vec);
 //    my_ll.getHead();
 //    my_ll.printLinkedList();
@@ -43,6 +43,10 @@ int main(){
 
     // Question 5
 
+    std::vector<int> my_vec {19,21,32,24,45,69};
+    DoublyLinkedList my_dll;
+    my_dll.createDoublyLinkedList(my_vec);
+    my_dll.printDoublyLinkedList();
 
     return 0;
 }
