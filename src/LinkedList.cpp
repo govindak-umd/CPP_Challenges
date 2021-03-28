@@ -57,7 +57,6 @@ int LinkedList::getLength(){
     }
     len = count;
     return len;
-
 }
 void LinkedList::printLinkedList(){
     std::cout << "Printing Linked List ... " << std::endl;
