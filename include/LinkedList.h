@@ -6,7 +6,7 @@
 class LinkedList{
 
 private:
-    Node head;
+    Node * head = NULL;
     int len;
 public:
     void declareHead(Node);

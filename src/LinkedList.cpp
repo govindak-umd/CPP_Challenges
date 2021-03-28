@@ -1,11 +1,11 @@
 #include"../include/LinkedList.h"
 
-void LinkedList::createLinkedList(std::vector<int> my_vec){
-
+void LinkedList::createLinkedList(std::vector<int> my_vec) {
+    std::cout << "Creating Linked List ..." << std::endl;
 }
 
 void LinkedList::declareHead(Node n){
-    head = n;
+
 }
 
 void LinkedList::addElem(){
