@@ -142,6 +142,33 @@ CPP_Challenges/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/build
 .PHONY : CPP_Challenges/fast
 
+src/LinkedList.obj: src/LinkedList.cpp.obj
+
+.PHONY : src/LinkedList.obj
+
+# target to build an object file
+src/LinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj
+.PHONY : src/LinkedList.cpp.obj
+
+src/LinkedList.i: src/LinkedList.cpp.i
+
+.PHONY : src/LinkedList.i
+
+# target to preprocess a source file
+src/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.i
+.PHONY : src/LinkedList.cpp.i
+
+src/LinkedList.s: src/LinkedList.cpp.s
+
+.PHONY : src/LinkedList.s
+
+# target to generate assembly for a file
+src/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.s
+.PHONY : src/LinkedList.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP_Challenges
+	@echo ... src/LinkedList.obj
+	@echo ... src/LinkedList.i
+	@echo ... src/LinkedList.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

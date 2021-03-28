@@ -1,14 +1,23 @@
 #include"../include/LinkedList.h"
 
-void addElem(){
+void LinkedList::createLinkedList(std::vector<int> my_vec){
 
 }
-void deleteElem(){
+
+void LinkedList::declareHead(Node n){
+    head = n;
+}
+
+void LinkedList::addElem(){
 
 }
-void getLength(){
+void LinkedList::deleteElem(){
 
 }
-void printLinkedList(){
+void LinkedList::getLength(){
+    std::cout << "Length of the Linked List = " << std::endl;
+}
+void LinkedList::printLinkedList(){
 
 }
+
