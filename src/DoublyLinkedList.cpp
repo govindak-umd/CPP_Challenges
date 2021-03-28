@@ -1,11 +1,21 @@
 #include"../include/DoublyLinkedList.h"
 
 void DoublyLinkedList::getHead(){
-
+    Node* head_temp = head;
+    while(head_temp!= nullptr){
+        if (head_temp->next == nullptr)
+            std::cout << "Head of the DLL is : " << head_temp->data << std::endl;
+        head_temp = head_temp->next;
+    }
 }
 
 void DoublyLinkedList::getTail() {
-
+    Node* prev_temp = head;
+    while(prev_temp!= nullptr){
+        if (prev_temp->prev == nullptr)
+            std::cout << "Tail of the DLL is : " << prev_temp->data << std::endl;
+        prev_temp = prev_temp->prev;
+    }
 }
 
 void DoublyLinkedList::addElemFront(int num, int pos){

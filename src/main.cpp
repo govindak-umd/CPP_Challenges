@@ -48,6 +48,7 @@ int main(){
     my_dll.createDoublyLinkedList(my_vec);
     my_dll.printDoublyLinkedList();
     my_dll.getLength();
-
+    my_dll.getHead();
+    my_dll.getTail();
     return 0;
 }
