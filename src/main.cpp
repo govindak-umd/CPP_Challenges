@@ -38,5 +38,7 @@ int main(){
     my_ll.printLinkedList();
     my_ll.addElem(5,3);
     my_ll.printLinkedList();
+    my_ll.deleteElem(3);
+    my_ll.printLinkedList();
     return 0;
 }

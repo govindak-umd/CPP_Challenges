@@ -17,9 +17,10 @@ void LinkedList::getHead(){
 }
 
 void LinkedList::addElem(int val, int pos){
+    std::cout << "Adding element to the Linked List ..." << std::endl;
     Node* head2 = head;
     int count = 0;
-    while(head2!=NULL){
+    while(head2!=nullptr){
         if (count == pos){
             Node* add_node = new Node;
             add_node->data = head2->data;
@@ -33,6 +34,17 @@ void LinkedList::addElem(int val, int pos){
 }
 
 void LinkedList::deleteElem(int pos){
+    std::cout << "Deleting element from the Linked List ..." << std::endl;
+    Node* head2 = head;
+    int count = 0;
+    while(head2!=nullptr){
+        if (count == pos-1){
+            head2->next->data = head2->next->next->data;
+            head2->next = head2->next->next;
+        }
+        head2 = head2->next;
+        count+=1;
+    }
 
 }
 
@@ -50,7 +62,7 @@ int LinkedList::getLength(){
 void LinkedList::printLinkedList(){
     std::cout << "Printing Linked List ... " << std::endl;
     Node* head2 = head;
-    while(head2!=NULL){
+    while(head2!=nullptr){
         std::cout << head2->data << std::endl;
         head2 = head2->next;
     }
