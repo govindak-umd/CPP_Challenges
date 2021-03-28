@@ -30,15 +30,19 @@ int main(){
 
     // Question 4
 
-    std::vector<int> my_vec {19,21,32,24,45,69};
-    LinkedList my_ll;
+//    std::vector<int> my_vec {19,21,32,24,45,69};
+//    LinkedList my_ll;
+//
+//    my_ll.createLinkedList(my_vec);
+//    my_ll.getHead();
+//    my_ll.printLinkedList();
+//    my_ll.addElem(5,3);
+//    my_ll.printLinkedList();
+//    my_ll.deleteElem(3);
+//    my_ll.printLinkedList();
 
-    my_ll.createLinkedList(my_vec);
-    my_ll.getHead();
-    my_ll.printLinkedList();
-    my_ll.addElem(5,3);
-    my_ll.printLinkedList();
-    my_ll.deleteElem(3);
-    my_ll.printLinkedList();
+    // Question 5
+
+
     return 0;
 }

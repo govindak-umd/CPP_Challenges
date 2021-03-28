@@ -142,6 +142,33 @@ CPP_Challenges/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/build
 .PHONY : CPP_Challenges/fast
 
+src/DoublyLinkedList.obj: src/DoublyLinkedList.cpp.obj
+
+.PHONY : src/DoublyLinkedList.obj
+
+# target to build an object file
+src/DoublyLinkedList.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj
+.PHONY : src/DoublyLinkedList.cpp.obj
+
+src/DoublyLinkedList.i: src/DoublyLinkedList.cpp.i
+
+.PHONY : src/DoublyLinkedList.i
+
+# target to preprocess a source file
+src/DoublyLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.i
+.PHONY : src/DoublyLinkedList.cpp.i
+
+src/DoublyLinkedList.s: src/DoublyLinkedList.cpp.s
+
+.PHONY : src/DoublyLinkedList.s
+
+# target to generate assembly for a file
+src/DoublyLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.s
+.PHONY : src/DoublyLinkedList.cpp.s
+
 src/LinkedList.obj: src/LinkedList.cpp.obj
 
 .PHONY : src/LinkedList.obj
@@ -205,6 +232,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP_Challenges
+	@echo ... src/DoublyLinkedList.obj
+	@echo ... src/DoublyLinkedList.i
+	@echo ... src/DoublyLinkedList.s
 	@echo ... src/LinkedList.obj
 	@echo ... src/LinkedList.i
 	@echo ... src/LinkedList.s
