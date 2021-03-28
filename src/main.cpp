@@ -42,7 +42,7 @@ int main(){
 //    my_ll.printLinkedList();
 
     // Question 5
-
+    // Here ... > head to tail
     std::vector<int> my_vec {19,21,32,24,45,69};
     DoublyLinkedList my_dll;
     my_dll.createDoublyLinkedList(my_vec);
@@ -50,6 +50,7 @@ int main(){
     my_dll.getLength();
     my_dll.getHead();
     my_dll.getTail();
-
+    my_dll.addElemFront(5);
+    my_dll.printDoublyLinkedList();
     return 0;
 }
