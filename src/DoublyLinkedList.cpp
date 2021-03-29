@@ -1,5 +1,22 @@
 #include"../include/DoublyLinkedList.h"
 
+void DoublyLinkedList::createDoublyLinkedList(std::vector<int> my_vec){
+    std::cout << "Creating A Doubly Linked List ..." << std::endl;
+
+    for(int v: my_vec){
+        Node *new_node =  new Node();
+        new_node->data = v;
+        new_node->next = tail;
+        new_node->prev = nullptr;
+        if (tail!= nullptr){
+            tail->prev = new_node;
+        }
+        tail = new_node;
+    }
+
+    std::cout << "Doubly Linked List ready! " << std::endl;
+}
+
 void DoublyLinkedList::getHead(){
     Node* head_temp = tail;
     while(head_temp!= nullptr){
@@ -56,14 +73,6 @@ void DoublyLinkedList::addElemEnd(int num){
     }
 }
 
-void DoublyLinkedList::addElemInPos(int num, int pos){
-
-}
-
-void DoublyLinkedList::deleteElem(int pos){
-
-}
-
 int DoublyLinkedList::getLength(){
     int count{0};
     Node* head_temp = head;
@@ -101,19 +110,39 @@ void DoublyLinkedList::printDoublyLinkedList(){
 
     }
 }
-void DoublyLinkedList::createDoublyLinkedList(std::vector<int> my_vec){
-    std::cout << "Creating A Doubly Linked List ..." << std::endl;
 
-    for(int v: my_vec){
-        Node *new_node =  new Node();
-        new_node->data = v;
-        new_node->next = tail;
-        new_node->prev = nullptr;
-        if (tail!= nullptr){
-            tail->prev = new_node;
+
+void DoublyLinkedList::addElemInPos(int num, int pos){
+    Node* head_temp = head;
+    std::cout << "Adding " << num << " to position " << pos << " of DLL ... "<< std::endl;
+    int count = 0;
+    while(head_temp!= nullptr){
+        if (count == pos) {
+
+            Node *new_node = new Node;
+            new_node->data = num;
+
+            new_node->next = head_temp->next;
+            new_node->prev = head_temp;
+
+            head_temp->next = new_node;
+
         }
-        tail = new_node;
+        head_temp = head_temp->prev;
+        count+=1;
     }
+}
 
-    std::cout << "Doubly Linked List ready! " << std::endl;
+void DoublyLinkedList::deleteElem(int pos){
+    Node* head_temp = head;
+    std::cout << "Deleting the number at position " << pos << " of DLL ... "<< std::endl;
+    int count = 0;
+    while(head_temp!= nullptr){
+        if (count == pos) {
+            head_temp->next->data = head_temp->next->next->data;
+            head_temp->next = head_temp->next->next;
+        }
+        head_temp = head_temp->prev;
+        count+=1;
+    }
 }

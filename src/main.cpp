@@ -45,18 +45,33 @@ int main(){
     // Here ... > head to tail
     std::vector<int> my_vec {19,21,32,24,45,69};
     DoublyLinkedList my_dll;
+
     my_dll.createDoublyLinkedList(my_vec);
     my_dll.printDoublyLinkedList();
+
     my_dll.getLength();
     my_dll.getHead();
     my_dll.getTail();
+
     my_dll.addElemFront(5);
     my_dll.printDoublyLinkedList();
     my_dll.getHead();
     my_dll.getTail();
+
     my_dll.addElemEnd(56);
     my_dll.printDoublyLinkedList();
     my_dll.getHead();
     my_dll.getTail();
+
+    my_dll.addElemInPos(85,5);
+    my_dll.printDoublyLinkedList();
+    my_dll.getHead();
+    my_dll.getTail();
+
+    my_dll.deleteElem(5);
+    my_dll.printDoublyLinkedList();
+    my_dll.getHead();
+    my_dll.getTail();
+
     return 0;
 }
