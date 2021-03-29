@@ -83,6 +83,7 @@ int DoublyLinkedList::getLength(){
     len =  count;
     return len;
 }
+
 void DoublyLinkedList::printDoublyLinkedList(){
     std::cout << "Printing Doubly Linked List ... " << std::endl;
     Node*head_temp = tail;
@@ -110,7 +111,6 @@ void DoublyLinkedList::printDoublyLinkedList(){
 
     }
 }
-
 
 void DoublyLinkedList::addElemInPos(int num, int pos){
     Node* head_temp = head;
