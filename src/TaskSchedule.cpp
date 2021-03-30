@@ -16,6 +16,7 @@ void TaskSchedule::scheduleJobsMaximiseProfit(std::vector<Job> my_jobs) {
     std::sort(my_jobs.begin(), my_jobs.end(),[](Job &a, Job &b) {
         return a.profit > b.profit;    // using C++11 lambda comparison
     });
+
     std::vector <int> days_occupied;
 
     // Variable to record the total profit
