@@ -1,5 +1,7 @@
 #pragma once
+#include<iostream>
 #include<vector>
+#include<algorithm>
 
 struct Job{
     int task;
@@ -10,6 +12,7 @@ struct Job{
 class TaskSchedule{
 
 public:
+    bool compareDuration(Job &, Job & );
     void scheduleJobsMaximiseProfit(std::vector<Job>);
 };
 

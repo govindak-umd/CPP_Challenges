@@ -105,6 +105,8 @@ int main(){
                                 my_job_9,
                                 my_job_10};
 
+    TaskSchedule taskSchedule;
+    taskSchedule.scheduleJobsMaximiseProfit(all_jobs);
     
     
     return 0;
