@@ -18,6 +18,7 @@ BinaryTreeNode::BinaryTreeNode(char direction, int data, BinaryTreeNode* parent_
         this->cost = parent_node->cost+1;
     }
     if(direction=='p'){
-        this->cost = 0;
+        this->cost = 1;
+        this->data = 1;
     }
 }

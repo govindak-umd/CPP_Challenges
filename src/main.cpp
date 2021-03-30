@@ -113,6 +113,6 @@ int main(){
     VerticalBinaryTreeTraversal traversal;
 
     traversal.prepareTree();
-    traversal.performVerticalTraversal();
+    traversal.sortTree();
     return 0;
 }
