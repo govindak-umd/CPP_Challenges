@@ -142,6 +142,33 @@ CPP_Challenges/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/build
 .PHONY : CPP_Challenges/fast
 
+src/BinaryTreeNode.obj: src/BinaryTreeNode.cpp.obj
+
+.PHONY : src/BinaryTreeNode.obj
+
+# target to build an object file
+src/BinaryTreeNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BinaryTreeNode.cpp.obj
+.PHONY : src/BinaryTreeNode.cpp.obj
+
+src/BinaryTreeNode.i: src/BinaryTreeNode.cpp.i
+
+.PHONY : src/BinaryTreeNode.i
+
+# target to preprocess a source file
+src/BinaryTreeNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BinaryTreeNode.cpp.i
+.PHONY : src/BinaryTreeNode.cpp.i
+
+src/BinaryTreeNode.s: src/BinaryTreeNode.cpp.s
+
+.PHONY : src/BinaryTreeNode.s
+
+# target to generate assembly for a file
+src/BinaryTreeNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BinaryTreeNode.cpp.s
+.PHONY : src/BinaryTreeNode.cpp.s
+
 src/DoublyLinkedList.obj: src/DoublyLinkedList.cpp.obj
 
 .PHONY : src/DoublyLinkedList.obj
@@ -286,6 +313,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... CPP_Challenges
+	@echo ... src/BinaryTreeNode.obj
+	@echo ... src/BinaryTreeNode.i
+	@echo ... src/BinaryTreeNode.s
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s

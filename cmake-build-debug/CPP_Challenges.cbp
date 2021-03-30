@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/BinaryTreeNode.cpp">
+			<Option target="CPP_Challenges"/>
+		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/DoublyLinkedList.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>

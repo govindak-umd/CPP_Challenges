@@ -4,7 +4,9 @@
 class BinaryTreeNode{
 public:
     int data;
-    int cost;
-    BinaryTreeNode* right;
-    BinaryTreeNode* left;
+    int cost = 0;
+    BinaryTreeNode* right = nullptr;
+    BinaryTreeNode* left = nullptr;
+    BinaryTreeNode();
+    BinaryTreeNode(char, int, BinaryTreeNode*);
 };

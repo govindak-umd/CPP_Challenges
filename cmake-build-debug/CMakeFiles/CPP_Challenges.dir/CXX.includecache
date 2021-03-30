@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/govin/Desktop/CPP_Challenges/include/TaskSchedule.h
+../include/BinaryTreeNode.h
 iostream
 -
-vector
--
-algorithm
--
 
-C:/Users/govin/Desktop/CPP_Challenges/src/TaskSchedule.cpp
-../include/TaskSchedule.h
-C:/Users/govin/Desktop/CPP_Challenges/include/TaskSchedule.h
+../include/VerticalBinaryTreeTraversal.h
+BinaryTreeNode.h
+../include/BinaryTreeNode.h
+
+C:/Users/govin/Desktop/CPP_Challenges/src/VerticalBinaryTreeTraversal.cpp
+../include/VerticalBinaryTreeTraversal.h
+-
 

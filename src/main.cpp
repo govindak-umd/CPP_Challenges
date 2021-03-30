@@ -6,6 +6,7 @@
 #include"../include/DoublyLinkedList.h"
 #include"../include/q_4.h"
 #include"../include/TaskSchedule.h"
+#include<../include/VerticalBinaryTreeTraversal.h>
 
 int main(){
 
@@ -108,6 +109,10 @@ int main(){
 //    TaskSchedule taskSchedule;
 //    taskSchedule.scheduleJobsMaximiseProfit(all_jobs);
     
-    
+    // Question 7
+    VerticalBinaryTreeTraversal traversal;
+
+    traversal.doVerticalTraversal();
+
     return 0;
 }
