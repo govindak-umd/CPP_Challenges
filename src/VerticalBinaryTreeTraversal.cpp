@@ -62,11 +62,37 @@ left_node-> 4      5
     delete node_8;
 }
 
-void VerticalBinaryTreeTraversal::sortTree(){
+void VerticalBinaryTreeTraversal::sortAndPrintTree(){
+    /**
+     * The function sorts the map based in the 'value'
+     * and prints the keys as per vertical sorting.
+     *
+     */
     std::map <int, int> ::iterator my_itr;
-    std::cout << " The size of the dictionary is : " << tree_map.size() << std::endl;
 
+    // Pointing the iterator back to the first element
+    my_itr = tree_map.begin();
 
+    std::vector<std::pair<int, int>> my_vec;
+
+    for(my_itr; my_itr!=tree_map.end();my_itr++){
+        my_vec.push_back(std::make_pair(my_itr->first, my_itr->second));
+    }
+
+//    std::cout << "Before Sorting  ... " << std::endl;
+//    for(auto c: my_vec){
+//        std::cout << c.first << " " << c.second << std::endl;
+//    }
+
+    std::sort(my_vec.begin(), my_vec.end(),[](std::pair<int, int> &a,std::pair<int, int> &b) {
+        return a.second < b.second;    // using C++11 lambda comparison
+    });
+
+//    std::cout << "After Sorting  ... " << std::endl;
+
+    for(auto node_val: my_vec){
+        std::cout << node_val.first << std::endl;
+    }
 }
 
 

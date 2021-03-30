@@ -2,6 +2,8 @@
 #include<iostream>
 #include<map>
 #include<iterator>
+#include<algorithm>
+#include<vector>
 
 class BinaryTreeNode{
 public:
