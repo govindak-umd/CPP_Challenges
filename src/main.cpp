@@ -4,7 +4,7 @@
 #include"../include/Node.h"
 #include"../include/LinkedList.h"
 #include"../include/DoublyLinkedList.h"
-#include"../include/q_4.h"
+#include"../include/q_6.h"
 #include"../include/TaskSchedule.h"
 #include<../include/VerticalBinaryTreeTraversal.h>
 
