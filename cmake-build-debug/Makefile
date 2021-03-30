@@ -223,6 +223,33 @@ src/TaskSchedule.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.s
 .PHONY : src/TaskSchedule.cpp.s
 
+src/VerticalBinaryTreeTraversal.obj: src/VerticalBinaryTreeTraversal.cpp.obj
+
+.PHONY : src/VerticalBinaryTreeTraversal.obj
+
+# target to build an object file
+src/VerticalBinaryTreeTraversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.obj
+.PHONY : src/VerticalBinaryTreeTraversal.cpp.obj
+
+src/VerticalBinaryTreeTraversal.i: src/VerticalBinaryTreeTraversal.cpp.i
+
+.PHONY : src/VerticalBinaryTreeTraversal.i
+
+# target to preprocess a source file
+src/VerticalBinaryTreeTraversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.i
+.PHONY : src/VerticalBinaryTreeTraversal.cpp.i
+
+src/VerticalBinaryTreeTraversal.s: src/VerticalBinaryTreeTraversal.cpp.s
+
+.PHONY : src/VerticalBinaryTreeTraversal.s
+
+# target to generate assembly for a file
+src/VerticalBinaryTreeTraversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.s
+.PHONY : src/VerticalBinaryTreeTraversal.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -268,6 +295,9 @@ help:
 	@echo ... src/TaskSchedule.obj
 	@echo ... src/TaskSchedule.i
 	@echo ... src/TaskSchedule.s
+	@echo ... src/VerticalBinaryTreeTraversal.obj
+	@echo ... src/VerticalBinaryTreeTraversal.i
+	@echo ... src/VerticalBinaryTreeTraversal.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
