@@ -5,6 +5,7 @@
 #include"../include/LinkedList.h"
 #include"../include/DoublyLinkedList.h"
 #include"../include/q_4.h"
+#include"../include/TaskSchedule.h"
 
 int main(){
 
@@ -80,5 +81,31 @@ int main(){
 //    std::string perm_key = "BDAC";
 //    findLexicographicString(key, perm_key);
 
+    // Question 7
+    
+    Job my_job_1{1,9,15};
+    Job my_job_2 = {2,2,2};
+    Job my_job_3 = {3,5,18};
+    Job my_job_4 = {4,7,1};
+    Job my_job_5 = {5,4,25};
+    Job my_job_6 = {6,2,20};
+    Job my_job_7 = {7,5,8};
+    Job my_job_8 = {8,7,10};
+    Job my_job_9 = {9,4,12};
+    Job my_job_10 = {10,3,5};
+
+    std::vector <Job> all_jobs {my_job_1,
+                                my_job_2,
+                                my_job_3,
+                                my_job_4,
+                                my_job_5,
+                                my_job_6,
+                                my_job_7,
+                                my_job_8,
+                                my_job_9,
+                                my_job_10};
+
+    
+    
     return 0;
 }

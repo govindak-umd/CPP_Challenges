@@ -9,9 +9,13 @@ CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: ../include/LinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: ../include/Node.h
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: ../src/LinkedList.cpp
 
+CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj: ../include/TaskSchedule.h
+CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj: ../src/TaskSchedule.cpp
+
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/Node.h
+CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/TaskSchedule.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/q_1.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/q_2.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/q_3.h

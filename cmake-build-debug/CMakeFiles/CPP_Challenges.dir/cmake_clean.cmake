@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj"
+  "CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj"
   "CPP_Challenges.exe"
   "CPP_Challenges.exe.manifest"

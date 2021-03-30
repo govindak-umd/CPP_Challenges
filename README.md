@@ -10,6 +10,7 @@ This repository is used to solve some C++ Challenges
 | Question 4 | *LinkedList.h, LinkedList.cpp, Node.h*| General functions with a Singly Linked List | |
 | Question 5 | *DoublyLinkedList.h, DoublyLinkedList.cpp, Node.h*| General functions with a Doubly Linked List|[Reference for Doubly Linked List](https://www.softwaretestinghelp.com/doubly-linked-list-2/) |
 | Question 6 | *q_4*.h | Usage of std::next_permutation | | 
+| Question 7 | **| Task scheduling to maximise Profit | | 
 ## Code Challenges:
 
 - [Best link for C++ Challenges](https://www.techiedelight.com/data-structures-and-algorithms-interview-questions-stl/)

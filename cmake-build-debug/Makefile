@@ -196,6 +196,33 @@ src/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.s
 .PHONY : src/LinkedList.cpp.s
 
+src/TaskSchedule.obj: src/TaskSchedule.cpp.obj
+
+.PHONY : src/TaskSchedule.obj
+
+# target to build an object file
+src/TaskSchedule.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj
+.PHONY : src/TaskSchedule.cpp.obj
+
+src/TaskSchedule.i: src/TaskSchedule.cpp.i
+
+.PHONY : src/TaskSchedule.i
+
+# target to preprocess a source file
+src/TaskSchedule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.i
+.PHONY : src/TaskSchedule.cpp.i
+
+src/TaskSchedule.s: src/TaskSchedule.cpp.s
+
+.PHONY : src/TaskSchedule.s
+
+# target to generate assembly for a file
+src/TaskSchedule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.s
+.PHONY : src/TaskSchedule.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -238,6 +265,9 @@ help:
 	@echo ... src/LinkedList.obj
 	@echo ... src/LinkedList.i
 	@echo ... src/LinkedList.s
+	@echo ... src/TaskSchedule.obj
+	@echo ... src/TaskSchedule.i
+	@echo ... src/TaskSchedule.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

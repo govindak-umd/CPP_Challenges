@@ -76,10 +76,24 @@ include CMakeFiles/CPP_Challenges.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CPP_Challenges.dir/flags.make
 
+CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj: CMakeFiles/CPP_Challenges.dir/flags.make
+CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj: CMakeFiles/CPP_Challenges.dir/includes_CXX.rsp
+CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj: ../src/TaskSchedule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPP_Challenges.dir\src\TaskSchedule.cpp.obj -c C:\Users\govin\Desktop\CPP_Challenges\src\TaskSchedule.cpp
+
+CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\govin\Desktop\CPP_Challenges\src\TaskSchedule.cpp > CMakeFiles\CPP_Challenges.dir\src\TaskSchedule.cpp.i
+
+CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\govin\Desktop\CPP_Challenges\src\TaskSchedule.cpp -o CMakeFiles\CPP_Challenges.dir\src\TaskSchedule.cpp.s
+
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: CMakeFiles/CPP_Challenges.dir/flags.make
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: CMakeFiles/CPP_Challenges.dir/includes_CXX.rsp
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../src/DoublyLinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPP_Challenges.dir\src\DoublyLinkedList.cpp.obj -c C:\Users\govin\Desktop\CPP_Challenges\src\DoublyLinkedList.cpp
 
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.i: cmake_force
@@ -93,7 +107,7 @@ CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.s: cmake_force
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: CMakeFiles/CPP_Challenges.dir/flags.make
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: CMakeFiles/CPP_Challenges.dir/includes_CXX.rsp
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: ../src/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPP_Challenges.dir\src\LinkedList.cpp.obj -c C:\Users\govin\Desktop\CPP_Challenges\src\LinkedList.cpp
 
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.i: cmake_force
@@ -107,7 +121,7 @@ CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.s: cmake_force
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: CMakeFiles/CPP_Challenges.dir/flags.make
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: CMakeFiles/CPP_Challenges.dir/includes_CXX.rsp
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CPP_Challenges.dir\src\main.cpp.obj -c C:\Users\govin\Desktop\CPP_Challenges\src\main.cpp
 
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.i: cmake_force
@@ -120,6 +134,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.s: cmake_force
 
 # Object files for target CPP_Challenges
 CPP_Challenges_OBJECTS = \
+"CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj" \
 "CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj" \
 "CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj" \
 "CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj"
@@ -127,6 +142,7 @@ CPP_Challenges_OBJECTS = \
 # External object files for target CPP_Challenges
 CPP_Challenges_EXTERNAL_OBJECTS =
 
+CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
@@ -134,7 +150,7 @@ CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/build.make
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/linklibs.rsp
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/objects1.rsp
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CPP_Challenges.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\govin\Desktop\CPP_Challenges\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CPP_Challenges.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CPP_Challenges.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
