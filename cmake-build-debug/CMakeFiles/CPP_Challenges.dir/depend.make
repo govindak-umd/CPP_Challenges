@@ -15,5 +15,6 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/Node.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/q_1.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/q_2.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/q_3.h
+CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/q_4.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../src/main.cpp
 

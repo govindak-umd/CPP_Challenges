@@ -4,6 +4,7 @@
 #include"../include/Node.h"
 #include"../include/LinkedList.h"
 #include"../include/DoublyLinkedList.h"
+#include"../include/q_4.h"
 
 int main(){
 
@@ -72,6 +73,12 @@ int main(){
 //    my_dll.printDoublyLinkedList();
 //    my_dll.getHead();
 //    my_dll.getTail();
+
+    // Question 6
+
+//    std::string key = "ABCD";
+//    std::string perm_key = "BDAC";
+//    findLexicographicString(key, perm_key);
 
     return 0;
 }
