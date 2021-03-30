@@ -11,7 +11,7 @@ This repository is used to solve some C++ Challenges
 | Question 5 | *DoublyLinkedList.h, DoublyLinkedList.cpp, Node.h*| General functions with a Doubly Linked List|[Reference for Doubly Linked List](https://www.softwaretestinghelp.com/doubly-linked-list-2/) |
 | Question 6 | *q_6*.h | Usage of std::next_permutation | | 
 | Question 7 | *TaskSchedule.h, TaskSchedule.cpp*| Task scheduling to maximise Profit | | 
-| Question 8 | *TaskSchedule.h, TaskSchedule.cpp, VerticalBinaryTreeTraversal.cpp, VerticalBinaryTreeTraversal.h*| Vertical Traversal of a Binary Tree||
+| Question 8 | *BinaryTreeNode.h, BinaryTreeNode.cpp, VerticalBinaryTreeTraversal.cpp, VerticalBinaryTreeTraversal.h*| Vertical Traversal of a Binary Tree||
 ## Code Challenges:
 
 - [Best link for C++ Challenges](https://www.techiedelight.com/data-structures-and-algorithms-interview-questions-stl/)
