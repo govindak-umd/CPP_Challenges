@@ -1,11 +1,27 @@
 #include<../include/VerticalBinaryTreeTraversal.h>
 
-void VerticalBinaryTreeTraversal::doVerticalTraversal(){
+void VerticalBinaryTreeTraversal::prepareTree(){
+    /**
+     * Prepares the Tree for Vertical Traversal
+     * The tree that has been prepared here looks like below:
+            1       <-root_node
+          /   \
+         /     \
+        2       3           <- node to the right of the parent node
+              /   \
+             /     \
+left_node-> 4      5
+          /      /   \
+         /      /      \
+        6      7        8
+     */
     // Root Node prep
 
     BinaryTreeNode* root_node = new BinaryTreeNode();
     root_node->cost = 1;
     root_node->data = 1;
+
+    tree_root = root_node;
 
     BinaryTreeNode* node_2 = new BinaryTreeNode('l',2,root_node);
     BinaryTreeNode* node_3 = new BinaryTreeNode('r',3,root_node);
@@ -33,4 +49,8 @@ void VerticalBinaryTreeTraversal::doVerticalTraversal(){
     delete node_6;
     delete node_7;
     delete node_8;
+}
+
+void VerticalBinaryTreeTraversal::performVerticalTraversal(){
+    std::cout << "Root Node Cost : " << tree_root->cost << std::endl;
 }

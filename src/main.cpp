@@ -112,7 +112,7 @@ int main(){
     // Question 7
     VerticalBinaryTreeTraversal traversal;
 
-    traversal.doVerticalTraversal();
-
+    traversal.prepareTree();
+    traversal.performVerticalTraversal();
     return 0;
 }

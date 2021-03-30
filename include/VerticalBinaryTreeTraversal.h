@@ -3,5 +3,7 @@
 
 class VerticalBinaryTreeTraversal{
 public:
-    void doVerticalTraversal();
+    BinaryTreeNode* tree_root;
+    void prepareTree();
+    void performVerticalTraversal();
 };
