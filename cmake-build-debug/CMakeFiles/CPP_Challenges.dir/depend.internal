@@ -8,6 +8,9 @@ CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
  C:/Users/govin/Desktop/CPP_Challenges/src/DoublyLinkedList.cpp
+CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.obj
+ C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
+ C:/Users/govin/Desktop/CPP_Challenges/src/InsertionSort.cpp
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
@@ -20,14 +23,13 @@ CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.obj
  ../include/VerticalBinaryTreeTraversal.h
  C:/Users/govin/Desktop/CPP_Challenges/src/VerticalBinaryTreeTraversal.cpp
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
- ../include/BinaryTreeNode.h
- ../include/VerticalBinaryTreeTraversal.h
  C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
  C:/Users/govin/Desktop/CPP_Challenges/include/TaskSchedule.h
  C:/Users/govin/Desktop/CPP_Challenges/include/q_1.h
  C:/Users/govin/Desktop/CPP_Challenges/include/q_2.h
  C:/Users/govin/Desktop/CPP_Challenges/include/q_3.h
- C:/Users/govin/Desktop/CPP_Challenges/include/q_4.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/q_6.h
  C:/Users/govin/Desktop/CPP_Challenges/src/main.cpp

@@ -6,23 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/BinaryTreeNode.h
+C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
 iostream
 -
-map
--
-iterator
--
-algorithm
--
-vector
--
 
-../include/VerticalBinaryTreeTraversal.h
-BinaryTreeNode.h
-../include/BinaryTreeNode.h
-
-C:/Users/govin/Desktop/CPP_Challenges/src/VerticalBinaryTreeTraversal.cpp
-../include/VerticalBinaryTreeTraversal.h
--
+C:/Users/govin/Desktop/CPP_Challenges/src/InsertionSort.cpp
+../include/InsertionSort.h
+C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
 

@@ -110,13 +110,13 @@ int main(){
 //    TaskSchedule taskSchedule;
 //    taskSchedule.scheduleJobsMaximiseProfit(all_jobs);
     
-    // Question 7
+    // Question 8
 //    VerticalBinaryTreeTraversal traversal;
 //
 //    traversal.prepareTree();
 //    traversal.sortAndPrintTree();
 
-    // Question 8
+    // Question 9
 
     InsertionSort insertion_sort;
     insertion_sort.insertionSortArray();
