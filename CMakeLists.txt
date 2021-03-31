@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(include)
 
 add_executable(CPP_Challenges
+        src/insertion_sort.cpp
         src/BinaryTreeNode.cpp
         src/VerticalBinaryTreeTraversal.cpp
         src/TaskSchedule.cpp

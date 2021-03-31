@@ -7,6 +7,7 @@
 #include"../include/q_6.h"
 #include"../include/TaskSchedule.h"
 #include<../include/VerticalBinaryTreeTraversal.h>
+#include"../include/insertion_sort.h
 
 int main(){
 

@@ -277,6 +277,33 @@ src/VerticalBinaryTreeTraversal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.s
 .PHONY : src/VerticalBinaryTreeTraversal.cpp.s
 
+src/insertion_sort.obj: src/insertion_sort.cpp.obj
+
+.PHONY : src/insertion_sort.obj
+
+# target to build an object file
+src/insertion_sort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/insertion_sort.cpp.obj
+.PHONY : src/insertion_sort.cpp.obj
+
+src/insertion_sort.i: src/insertion_sort.cpp.i
+
+.PHONY : src/insertion_sort.i
+
+# target to preprocess a source file
+src/insertion_sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/insertion_sort.cpp.i
+.PHONY : src/insertion_sort.cpp.i
+
+src/insertion_sort.s: src/insertion_sort.cpp.s
+
+.PHONY : src/insertion_sort.s
+
+# target to generate assembly for a file
+src/insertion_sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/insertion_sort.cpp.s
+.PHONY : src/insertion_sort.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -328,6 +355,9 @@ help:
 	@echo ... src/VerticalBinaryTreeTraversal.obj
 	@echo ... src/VerticalBinaryTreeTraversal.i
 	@echo ... src/VerticalBinaryTreeTraversal.s
+	@echo ... src/insertion_sort.obj
+	@echo ... src/insertion_sort.i
+	@echo ... src/insertion_sort.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
