@@ -8,7 +8,7 @@
 #include"../include/TaskSchedule.h"
 //#include<../include/VerticalBinaryTreeTraversal.h>
 #include"../include/InsertionSort.h"
-
+#include"../include/MergeSort.h"
 int main(){
 
     // Question 1
@@ -118,9 +118,12 @@ int main(){
 
     // Question 9
 
-    InsertionSort insertion_sort;
-    insertion_sort.insertionSortArray();
+//    InsertionSort insertion_sort;
+//    insertion_sort.insertionSortArray();
 
+    // Question 10
+
+    MergeSort merge_sort;
 
     return 0;
 }

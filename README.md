@@ -12,7 +12,8 @@ This repository is used to solve some C++ Challenges
 | Question 6 | *q_6*.h | Usage of std::next_permutation | | 
 | Question 7 | *TaskSchedule.h, TaskSchedule.cpp*| Task scheduling to maximise Profit | | 
 | Question 8 | *BinaryTreeNode.h, BinaryTreeNode.cpp, VerticalBinaryTreeTraversal.cpp, VerticalBinaryTreeTraversal.h*| Vertical Traversal of a Binary Tree||
-| Question 9 | *InsertionSort.h, InsertionSort.cpp* | Insertion Sorting of a an array ||
+| Question 9 | *InsertionSort.h, InsertionSort.cpp* | Insertion Sorting of an array ||
+| Question 10 | *MergeSort.h, MergeSort.cpp* | Merge Sorting of an array ||
 
 ## Code Challenges:
 

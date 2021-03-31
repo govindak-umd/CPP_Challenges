@@ -250,6 +250,33 @@ src/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.s
 .PHONY : src/LinkedList.cpp.s
 
+src/MergeSort.obj: src/MergeSort.cpp.obj
+
+.PHONY : src/MergeSort.obj
+
+# target to build an object file
+src/MergeSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj
+.PHONY : src/MergeSort.cpp.obj
+
+src/MergeSort.i: src/MergeSort.cpp.i
+
+.PHONY : src/MergeSort.i
+
+# target to preprocess a source file
+src/MergeSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.i
+.PHONY : src/MergeSort.cpp.i
+
+src/MergeSort.s: src/MergeSort.cpp.s
+
+.PHONY : src/MergeSort.s
+
+# target to generate assembly for a file
+src/MergeSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.s
+.PHONY : src/MergeSort.cpp.s
+
 src/TaskSchedule.obj: src/TaskSchedule.cpp.obj
 
 .PHONY : src/TaskSchedule.obj
@@ -352,6 +379,9 @@ help:
 	@echo ... src/LinkedList.obj
 	@echo ... src/LinkedList.i
 	@echo ... src/LinkedList.s
+	@echo ... src/MergeSort.obj
+	@echo ... src/MergeSort.i
+	@echo ... src/MergeSort.s
 	@echo ... src/TaskSchedule.obj
 	@echo ... src/TaskSchedule.i
 	@echo ... src/TaskSchedule.s
