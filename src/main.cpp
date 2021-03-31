@@ -6,8 +6,8 @@
 #include"../include/DoublyLinkedList.h"
 #include"../include/q_6.h"
 #include"../include/TaskSchedule.h"
-#include<../include/VerticalBinaryTreeTraversal.h>
-#include"../include/insertion_sort.h
+//#include<../include/VerticalBinaryTreeTraversal.h>
+#include"../include/InsertionSort.h"
 
 int main(){
 
@@ -111,9 +111,16 @@ int main(){
 //    taskSchedule.scheduleJobsMaximiseProfit(all_jobs);
     
     // Question 7
-    VerticalBinaryTreeTraversal traversal;
+//    VerticalBinaryTreeTraversal traversal;
+//
+//    traversal.prepareTree();
+//    traversal.sortAndPrintTree();
 
-    traversal.prepareTree();
-    traversal.sortAndPrintTree();
+    // Question 8
+
+    InsertionSort insertion_sort;
+    insertion_sort.insertionSortArray();
+
+
     return 0;
 }

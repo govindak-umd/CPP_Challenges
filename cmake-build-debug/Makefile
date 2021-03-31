@@ -196,6 +196,33 @@ src/DoublyLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.s
 .PHONY : src/DoublyLinkedList.cpp.s
 
+src/InsertionSort.obj: src/InsertionSort.cpp.obj
+
+.PHONY : src/InsertionSort.obj
+
+# target to build an object file
+src/InsertionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.obj
+.PHONY : src/InsertionSort.cpp.obj
+
+src/InsertionSort.i: src/InsertionSort.cpp.i
+
+.PHONY : src/InsertionSort.i
+
+# target to preprocess a source file
+src/InsertionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.i
+.PHONY : src/InsertionSort.cpp.i
+
+src/InsertionSort.s: src/InsertionSort.cpp.s
+
+.PHONY : src/InsertionSort.s
+
+# target to generate assembly for a file
+src/InsertionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.s
+.PHONY : src/InsertionSort.cpp.s
+
 src/LinkedList.obj: src/LinkedList.cpp.obj
 
 .PHONY : src/LinkedList.obj
@@ -277,33 +304,6 @@ src/VerticalBinaryTreeTraversal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.s
 .PHONY : src/VerticalBinaryTreeTraversal.cpp.s
 
-src/insertion_sort.obj: src/insertion_sort.cpp.obj
-
-.PHONY : src/insertion_sort.obj
-
-# target to build an object file
-src/insertion_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/insertion_sort.cpp.obj
-.PHONY : src/insertion_sort.cpp.obj
-
-src/insertion_sort.i: src/insertion_sort.cpp.i
-
-.PHONY : src/insertion_sort.i
-
-# target to preprocess a source file
-src/insertion_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/insertion_sort.cpp.i
-.PHONY : src/insertion_sort.cpp.i
-
-src/insertion_sort.s: src/insertion_sort.cpp.s
-
-.PHONY : src/insertion_sort.s
-
-# target to generate assembly for a file
-src/insertion_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/insertion_sort.cpp.s
-.PHONY : src/insertion_sort.cpp.s
-
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -346,6 +346,9 @@ help:
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s
+	@echo ... src/InsertionSort.obj
+	@echo ... src/InsertionSort.i
+	@echo ... src/InsertionSort.s
 	@echo ... src/LinkedList.obj
 	@echo ... src/LinkedList.i
 	@echo ... src/LinkedList.s
@@ -355,9 +358,6 @@ help:
 	@echo ... src/VerticalBinaryTreeTraversal.obj
 	@echo ... src/VerticalBinaryTreeTraversal.i
 	@echo ... src/VerticalBinaryTreeTraversal.s
-	@echo ... src/insertion_sort.obj
-	@echo ... src/insertion_sort.i
-	@echo ... src/insertion_sort.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

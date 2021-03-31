@@ -88,6 +88,9 @@
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/DoublyLinkedList.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/InsertionSort.cpp">
+			<Option target="CPP_Challenges"/>
+		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/LinkedList.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
@@ -95,9 +98,6 @@
 			<Option target="CPP_Challenges"/>
 		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/VerticalBinaryTreeTraversal.cpp">
-			<Option target="CPP_Challenges"/>
-		</Unit>
-		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/insertion_sort.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/main.cpp">
