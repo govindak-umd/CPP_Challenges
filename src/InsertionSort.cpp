@@ -1,6 +1,14 @@
 #include"../include/InsertionSort.h"
 
 
+/**
+ * The function does insertion sorting
+ * of an array. The algorithm works by iterating forwards
+ * to check for a greater number, followed by
+ * iterating back at every point to see if there is a
+ * lower number that is present in the array.
+ */
+
 void InsertionSort::insertionSortArray(){
     size_t len_arr = sizeof (my_arr)/sizeof (my_arr[0]);
     int temp;
@@ -27,6 +35,9 @@ void InsertionSort::insertionSortArray(){
     std::cout << "Insertion Sort Completed!" << std::endl;
 }
 
+/*
+ * Prints the array
+ */
 void InsertionSort::printArray(){
     std::cout << "Printing ... ";
     size_t len_arr = sizeof (my_arr)/sizeof (my_arr[0]);
