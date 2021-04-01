@@ -27,6 +27,8 @@ void InsertionSort::insertionSortArray(){
                 *my_arr_first = *my_arr_second;
                 *my_arr_second = temp;
                 printArray();
+                delete my_arr_first;
+                delete my_arr_second;
             }
             j-=1;
         }

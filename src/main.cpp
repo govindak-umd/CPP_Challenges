@@ -6,7 +6,7 @@
 #include"../include/DoublyLinkedList.h"
 #include"../include/q_6.h"
 #include"../include/TaskSchedule.h"
-//#include<../include/VerticalBinaryTreeTraversal.h>
+#include<../include/VerticalBinaryTreeTraversal.h>
 #include"../include/InsertionSort.h"
 #include"../include/MergeSort.h"
 #include"../include/BubbleSort.h"
@@ -130,7 +130,8 @@ int main(){
 
     // Question 10
 
-    BubbleSort bubble_sort;
+//    BubbleSort bubble_sort;
 //    bubble_sort.BubbleSortArray();
+
     return 0;
 }
