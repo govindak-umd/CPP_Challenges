@@ -124,6 +124,6 @@ int main(){
     // Question 10
 
     MergeSort merge_sort;
-
+    merge_sort.MergeSortArray();
     return 0;
 }

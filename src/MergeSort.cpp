@@ -1,7 +1,6 @@
 #include"../include/MergeSort.h"
 
-void MergeSort::MergeSortArray(){
-
+void MergeSort::MergeSortArray(int){
 }
 
 /*
