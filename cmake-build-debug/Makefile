@@ -169,6 +169,33 @@ src/BinaryTreeNode.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BinaryTreeNode.cpp.s
 .PHONY : src/BinaryTreeNode.cpp.s
 
+src/BubbleSort.obj: src/BubbleSort.cpp.obj
+
+.PHONY : src/BubbleSort.obj
+
+# target to build an object file
+src/BubbleSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.obj
+.PHONY : src/BubbleSort.cpp.obj
+
+src/BubbleSort.i: src/BubbleSort.cpp.i
+
+.PHONY : src/BubbleSort.i
+
+# target to preprocess a source file
+src/BubbleSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.i
+.PHONY : src/BubbleSort.cpp.i
+
+src/BubbleSort.s: src/BubbleSort.cpp.s
+
+.PHONY : src/BubbleSort.s
+
+# target to generate assembly for a file
+src/BubbleSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.s
+.PHONY : src/BubbleSort.cpp.s
+
 src/DoublyLinkedList.obj: src/DoublyLinkedList.cpp.obj
 
 .PHONY : src/DoublyLinkedList.obj
@@ -370,6 +397,9 @@ help:
 	@echo ... src/BinaryTreeNode.obj
 	@echo ... src/BinaryTreeNode.i
 	@echo ... src/BinaryTreeNode.s
+	@echo ... src/BubbleSort.obj
+	@echo ... src/BubbleSort.i
+	@echo ... src/BubbleSort.s
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s

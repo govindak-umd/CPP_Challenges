@@ -9,6 +9,8 @@
 //#include<../include/VerticalBinaryTreeTraversal.h>
 #include"../include/InsertionSort.h"
 #include"../include/MergeSort.h"
+#include"../include/BubbleSort.h"
+
 int main(){
 
     // Question 1
@@ -123,7 +125,12 @@ int main(){
 
     // Question 10
 
-    MergeSort merge_sort;
-    merge_sort.MergeSortArray();
+//    MergeSort merge_sort;
+//    merge_sort.MergeSortArray();
+
+    // Question 10
+
+    BubbleSort bubble_sort;
+//    bubble_sort.BubbleSortArray();
     return 0;
 }

@@ -1,12 +1,12 @@
-#include"../include/MergeSort.h"
+#include"../include/BubbleSort.h"
 
-void MergeSort::MergeSortArray(){
+void BubbleSort::BubbleSortArray(){
 }
 
 /*
  * Prints the array
  */
-void MergeSort::printArray(){
+void BubbleSort::printArray(){
     std::cout << "Printing ... ";
     size_t len_arr = sizeof (my_arr)/sizeof (my_arr[0]);
     for(int i = 0; i < len_arr; i++){
