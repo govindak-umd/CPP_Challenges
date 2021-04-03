@@ -8,8 +8,9 @@ void ConvertToHeap::Heapify(int i){
 }
 
 void ConvertToHeap::arr2Heap(){
+    int start_idx = (len_array/2) - 1;
 
-    for(int i = len_array; i > 0; i--){
+    for(int i = start_idx; i > 0; i--){
         Heapify(i);
     }
 }
