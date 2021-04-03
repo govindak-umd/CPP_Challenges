@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/govin/Desktop/CPP_Challenges/include/ConvertToHeap.h
+C:/Users/govin/Desktop/CPP_Challenges/include/HeapSort.h
 iostream
 -
 
-C:/Users/govin/Desktop/CPP_Challenges/src/ConvertToHeap.cpp
-../include/ConvertToHeap.h
-C:/Users/govin/Desktop/CPP_Challenges/include/ConvertToHeap.h
+C:/Users/govin/Desktop/CPP_Challenges/src/HeapSort.cpp
+../include/HeapSort.h
+C:/Users/govin/Desktop/CPP_Challenges/include/HeapSort.h
 

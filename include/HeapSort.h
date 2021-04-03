@@ -1,7 +1,7 @@
 #pragma once
 #include<iostream>
 
-class ConvertToHeap{
+class HeapSort{
 public:
 
     // heap_type = 1 for max heap

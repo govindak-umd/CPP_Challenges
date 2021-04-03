@@ -10,7 +10,7 @@
 #include"../include/InsertionSort.h"
 #include"../include/MergeSort.h"
 #include"../include/BubbleSort.h"
-#include"../include/ConvertToHeap.h"
+#include"../include/HeapSort.h"
 
 int main(){
 
@@ -138,8 +138,8 @@ int main(){
 
     // Question 11
 
-//    ConvertToHeap convert_to_heap;
-//    convert_to_heap.arr2Heap();
+    HeapSort heap_sort;
+    heap_sort.arr2Heap();
 
     return 0;
 }

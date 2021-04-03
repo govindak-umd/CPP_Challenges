@@ -7,12 +7,12 @@ CMakeFiles/CPP_Challenges.dir/src/BinaryTreeNode.cpp.obj: ../src/BinaryTreeNode.
 CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.obj: ../include/BubbleSort.h
 CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.obj: ../src/BubbleSort.cpp
 
-CMakeFiles/CPP_Challenges.dir/src/ConvertToHeap.cpp.obj: ../include/ConvertToHeap.h
-CMakeFiles/CPP_Challenges.dir/src/ConvertToHeap.cpp.obj: ../src/ConvertToHeap.cpp
-
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/Node.h
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../src/DoublyLinkedList.cpp
+
+CMakeFiles/CPP_Challenges.dir/src/HeapSort.cpp.obj: ../include/HeapSort.h
+CMakeFiles/CPP_Challenges.dir/src/HeapSort.cpp.obj: ../src/HeapSort.cpp
 
 CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.obj: ../include/InsertionSort.h
 CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.obj: ../src/InsertionSort.cpp
@@ -34,7 +34,6 @@ CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.obj: ../src/Ve
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/BinaryTreeNode.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/VerticalBinaryTreeTraversal.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/BubbleSort.h
-CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/ConvertToHeap.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/InsertionSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LinkedList.h

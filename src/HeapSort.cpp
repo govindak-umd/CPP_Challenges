@@ -1,7 +1,7 @@
-#include "../include/ConvertToHeap.h"
+#include "../include/HeapSort.h"
 
 
-void ConvertToHeap::Heapify(int i, int heap_type){
+void HeapSort::Heapify(int i, int heap_type){
     printArray();
     int largest = i;
     int left_node_idx = 2*i + 1;
@@ -38,7 +38,7 @@ void ConvertToHeap::Heapify(int i, int heap_type){
     }
 }
 
-void ConvertToHeap::arr2Heap(){
+void HeapSort::arr2Heap(){
 
     for(int i = len_array; i >= 0; i--){
         Heapify(i, heap_type);
@@ -56,7 +56,7 @@ void ConvertToHeap::arr2Heap(){
 /*
  * Prints the array
  */
-void ConvertToHeap::printArray(){
+void HeapSort::printArray(){
     std::cout << "Printing ... ";
     for(int i = 0; i < len_array; i++){
         std::cout << arr[i] <<" ";
