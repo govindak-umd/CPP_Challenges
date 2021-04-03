@@ -15,7 +15,7 @@ This repository is used to solve some C++ Challenges
 | Question 9 | *InsertionSort.h, InsertionSort.cpp* | Insertion Sorting of an array ||
 | Question 10 **(incomplete)**| *MergeSort.h, MergeSort.cpp* | Merge Sorting of an array ||
 | Question 11 | *BubbleSort.h   , BubbleSort.cpp* | Bubble Sorting of an array ||
-| Question 12 || Convert Array to Max OR Min heap||
+| Question 12 |*ConvertToHeap.h   , ConvertToHeap.cpp*| Convert Array to Max OR Min heap||
 
 ## Code Challenges:
 
