@@ -16,6 +16,7 @@ This repository is used to solve some C++ Challenges
 | Question 10 **(incomplete)**| *MergeSort.h, MergeSort.cpp* | Merge Sorting of an array ||
 | Question 11 | *BubbleSort.h   , BubbleSort.cpp* | Bubble Sorting of an array ||
 | Question 12 |*HeapSort.h   , HeapSort.cpp*| Convert Array Heap and Sort to Max OR Min heap||
+| Question 13 |*ReverseString.h   , ReverseString.cpp*| Convert Array Heap and Sort to Max OR Min heap||
 
 ## Code Challenges:
 

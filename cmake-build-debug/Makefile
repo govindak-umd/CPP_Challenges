@@ -331,6 +331,33 @@ src/MergeSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.s
 .PHONY : src/MergeSort.cpp.s
 
+src/ReverseString.obj: src/ReverseString.cpp.obj
+
+.PHONY : src/ReverseString.obj
+
+# target to build an object file
+src/ReverseString.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.obj
+.PHONY : src/ReverseString.cpp.obj
+
+src/ReverseString.i: src/ReverseString.cpp.i
+
+.PHONY : src/ReverseString.i
+
+# target to preprocess a source file
+src/ReverseString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.i
+.PHONY : src/ReverseString.cpp.i
+
+src/ReverseString.s: src/ReverseString.cpp.s
+
+.PHONY : src/ReverseString.s
+
+# target to generate assembly for a file
+src/ReverseString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.s
+.PHONY : src/ReverseString.cpp.s
+
 src/TaskSchedule.obj: src/TaskSchedule.cpp.obj
 
 .PHONY : src/TaskSchedule.obj
@@ -442,6 +469,9 @@ help:
 	@echo ... src/MergeSort.obj
 	@echo ... src/MergeSort.i
 	@echo ... src/MergeSort.s
+	@echo ... src/ReverseString.obj
+	@echo ... src/ReverseString.i
+	@echo ... src/ReverseString.s
 	@echo ... src/TaskSchedule.obj
 	@echo ... src/TaskSchedule.i
 	@echo ... src/TaskSchedule.s

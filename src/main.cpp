@@ -11,7 +11,7 @@
 #include"../include/MergeSort.h"
 #include"../include/BubbleSort.h"
 #include"../include/HeapSort.h"
-
+#include"../include/ReverseString.h"
 int main(){
 
     // Question 1
@@ -131,15 +131,23 @@ int main(){
 //    MergeSort merge_sort;
 //    merge_sort.MergeSortArray();
 
-    // Question 10
+    // Question 11
 
 //    BubbleSort bubble_sort;
 //    bubble_sort.BubbleSortArray();
 
-    // Question 11
+    // Question 12
 
-    HeapSort heap_sort;
-    heap_sort.arr2Heap();
+//    HeapSort heap_sort;
+//    heap_sort.arr2Heap();
+
+    // Question 13
+
+    std::string my_string = "abcdefghij";
+    ReverseString reverseString(my_string);
+    reverseString.reverse_string();
+
+    // Question 14
 
     return 0;
 }

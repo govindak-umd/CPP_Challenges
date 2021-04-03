@@ -24,6 +24,9 @@ CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj
 CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
  C:/Users/govin/Desktop/CPP_Challenges/src/MergeSort.cpp
+CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.obj
+ C:/Users/govin/Desktop/CPP_Challenges/include/ReverseString.h
+ C:/Users/govin/Desktop/CPP_Challenges/src/ReverseString.cpp
 CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/TaskSchedule.h
  C:/Users/govin/Desktop/CPP_Challenges/src/TaskSchedule.cpp
@@ -36,10 +39,12 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
  ../include/VerticalBinaryTreeTraversal.h
  C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/HeapSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/ReverseString.h
  C:/Users/govin/Desktop/CPP_Challenges/include/TaskSchedule.h
  C:/Users/govin/Desktop/CPP_Challenges/include/q_1.h
  C:/Users/govin/Desktop/CPP_Challenges/include/q_2.h
