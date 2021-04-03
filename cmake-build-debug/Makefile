@@ -196,6 +196,33 @@ src/BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.s
 .PHONY : src/BubbleSort.cpp.s
 
+src/ConvertToHeap.obj: src/ConvertToHeap.cpp.obj
+
+.PHONY : src/ConvertToHeap.obj
+
+# target to build an object file
+src/ConvertToHeap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/ConvertToHeap.cpp.obj
+.PHONY : src/ConvertToHeap.cpp.obj
+
+src/ConvertToHeap.i: src/ConvertToHeap.cpp.i
+
+.PHONY : src/ConvertToHeap.i
+
+# target to preprocess a source file
+src/ConvertToHeap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/ConvertToHeap.cpp.i
+.PHONY : src/ConvertToHeap.cpp.i
+
+src/ConvertToHeap.s: src/ConvertToHeap.cpp.s
+
+.PHONY : src/ConvertToHeap.s
+
+# target to generate assembly for a file
+src/ConvertToHeap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/ConvertToHeap.cpp.s
+.PHONY : src/ConvertToHeap.cpp.s
+
 src/DoublyLinkedList.obj: src/DoublyLinkedList.cpp.obj
 
 .PHONY : src/DoublyLinkedList.obj
@@ -400,6 +427,9 @@ help:
 	@echo ... src/BubbleSort.obj
 	@echo ... src/BubbleSort.i
 	@echo ... src/BubbleSort.s
+	@echo ... src/ConvertToHeap.obj
+	@echo ... src/ConvertToHeap.i
+	@echo ... src/ConvertToHeap.s
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s

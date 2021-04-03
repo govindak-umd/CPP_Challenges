@@ -7,6 +7,9 @@ CMakeFiles/CPP_Challenges.dir/src/BinaryTreeNode.cpp.obj
 CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
  C:/Users/govin/Desktop/CPP_Challenges/src/BubbleSort.cpp
+CMakeFiles/CPP_Challenges.dir/src/ConvertToHeap.cpp.obj
+ C:/Users/govin/Desktop/CPP_Challenges/include/ConvertToHeap.h
+ C:/Users/govin/Desktop/CPP_Challenges/src/ConvertToHeap.cpp
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
@@ -32,6 +35,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
  ../include/BinaryTreeNode.h
  ../include/VerticalBinaryTreeTraversal.h
  C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/ConvertToHeap.h
  C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h

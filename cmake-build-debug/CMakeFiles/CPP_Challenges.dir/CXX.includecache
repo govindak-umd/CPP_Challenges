@@ -26,6 +26,10 @@ C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
 iostream
 -
 
+C:/Users/govin/Desktop/CPP_Challenges/include/ConvertToHeap.h
+iostream
+-
+
 C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
 iostream
 -
@@ -96,6 +100,10 @@ algorithm
 string
 -
 
+C:/Users/govin/Desktop/CPP_Challenges/src/ConvertToHeap.cpp
+../include/ConvertToHeap.h
+C:/Users/govin/Desktop/CPP_Challenges/include/ConvertToHeap.h
+
 C:/Users/govin/Desktop/CPP_Challenges/src/main.cpp
 ../include/q_1.h
 C:/Users/govin/Desktop/CPP_Challenges/include/q_1.h
@@ -121,4 +129,6 @@ C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
 C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
 ../include/BubbleSort.h
 C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
+../include/ConvertToHeap.h
+C:/Users/govin/Desktop/CPP_Challenges/include/ConvertToHeap.h
 
