@@ -143,9 +143,9 @@ int main(){
 
     // Question 13
 
-    std::string my_string = "abcdefghij";
-    ReverseString reverseString(my_string);
-    reverseString.reverse_string();
+//    std::string my_string = "abcdefghij";
+//    ReverseString reverseString(my_string);
+//    reverseString.reverse_string();
 
     // Question 14
 

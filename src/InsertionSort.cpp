@@ -18,17 +18,13 @@ void InsertionSort::insertionSortArray(){
         while(j > 0){
             if (my_arr[j-1] > my_arr[j]){
                 std::cout << "Swapping " << my_arr[j-1] << " with  " << my_arr[j] << std::endl;
-                int * my_arr_first = new int;
-                my_arr_first = &my_arr[j-1];
-                int * my_arr_second = new int;
-                my_arr_second = &my_arr[j];
+                int * my_arr_first = &my_arr[j-1];
+                int * my_arr_second = &my_arr[j];
 
                 temp = *my_arr_first;
                 *my_arr_first = *my_arr_second;
                 *my_arr_second = temp;
                 printArray();
-                delete my_arr_first;
-                delete my_arr_second;
             }
             j-=1;
         }
