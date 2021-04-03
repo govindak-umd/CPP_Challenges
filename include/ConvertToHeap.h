@@ -7,4 +7,5 @@ public:
     size_t len_array = sizeof(arr)/sizeof(arr[0]);
     void arr2Heap();
     void Heapify(int);
+    void printArray();
 };
