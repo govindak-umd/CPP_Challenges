@@ -1,19 +1,32 @@
 #include "../include/ConvertToHeap.h"
 
 
-void ConvertToHeap::Heapify(int i){
+void ConvertToHeap::Heapify(int i, int heap_type){
     printArray();
     int largest = i;
     int left_node_idx = 2*i + 1;
     int right_node_idx = 2*i + 2;
 
-    if(left_node_idx < len_array && arr[left_node_idx] > arr[largest]){
-        largest = left_node_idx;
+    // To get Max Heap
+
+    if (heap_type == 1) {
+        if (left_node_idx < len_array && arr[left_node_idx] > arr[largest]) {
+            largest = left_node_idx;
+        }
+        if(right_node_idx < len_array && arr[right_node_idx] > arr[largest]){
+            largest = right_node_idx;
+        }
     }
 
-    if(right_node_idx < len_array && arr[right_node_idx] > arr[largest]){
-        largest = right_node_idx;
+    if (heap_type == 0) {
+        if (left_node_idx < len_array && arr[left_node_idx] < arr[largest]) {
+            largest = left_node_idx;
+        }
+        if (right_node_idx < len_array && arr[right_node_idx] < arr[largest]) {
+            largest = right_node_idx;
+        }
     }
+
 
     if (largest != i){
         std::swap(arr[i], arr[largest]);
@@ -21,15 +34,22 @@ void ConvertToHeap::Heapify(int i){
         // Now keep check and heapify-ing for that branch or
         // sub-tree
 
-        Heapify(largest);
+        Heapify(largest, heap_type);
     }
 }
 
 void ConvertToHeap::arr2Heap(){
 
     for(int i = len_array; i >= 0; i--){
-        Heapify(i);
+        Heapify(i, heap_type);
         printArray();
+    }
+    if (heap_type == 1) {
+        std::cout << "Max Heap done!!" <<  std::endl;
+    }
+
+    if (heap_type == 0) {
+        std::cout << "Min Heap done!!" <<  std::endl;
     }
 }
 
