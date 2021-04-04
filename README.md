@@ -14,9 +14,9 @@ This repository is used to solve some C++ Challenges
 | Question 8 | *BinaryTreeNode.h, BinaryTreeNode.cpp, VerticalBinaryTreeTraversal.cpp, VerticalBinaryTreeTraversal.h*| Vertical Traversal of a Binary Tree||
 | Question 9 | *InsertionSort.h, InsertionSort.cpp* | Insertion Sorting of an array ||
 | Question 10 **(incomplete)**| *MergeSort.h, MergeSort.cpp* | Merge Sorting of an array ||
-| Question 11 | *BubbleSort.h   , BubbleSort.cpp* | Bubble Sorting of an array ||
-| Question 12 |*HeapSort.h   , HeapSort.cpp*| Convert Array Heap and Sort to Max OR Min heap||
-| Question 13 |*ReverseString.h   , ReverseString.cpp*| Reverse a string using Pointers C++||
+| Question 11 | *BubbleSort.h ,BubbleSort.cpp* | Bubble Sorting of an array ||
+| Question 12 |*HeapSort.h ,HeapSort.cpp*| Convert Array Heap and Sort to Max OR Min heap||
+| Question 13 |*ReverseString.h ,ReverseString.cpp*| Reverse a string using Pointers C++||
 
 ## Code Challenges:
 
