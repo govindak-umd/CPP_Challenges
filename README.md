@@ -17,6 +17,7 @@ This repository is used to solve some C++ Challenges
 | Question 11 | *BubbleSort.h ,BubbleSort.cpp* | Bubble Sorting of an array ||
 | Question 12 |*HeapSort.h ,HeapSort.cpp*| Convert Array Heap and Sort to Max OR Min heap||
 | Question 13 |*ReverseString.h ,ReverseString.cpp*| Reverse a string using Pointers C++||
+| Question 14 |*MultiThreading.h ,MultiThreading.cpp*| Multi Threading examples||
 
 ## Code Challenges:
 
