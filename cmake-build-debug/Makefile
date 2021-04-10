@@ -331,6 +331,33 @@ src/MergeSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.s
 .PHONY : src/MergeSort.cpp.s
 
+src/MultiThreading.obj: src/MultiThreading.cpp.obj
+
+.PHONY : src/MultiThreading.obj
+
+# target to build an object file
+src/MultiThreading.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MultiThreading.cpp.obj
+.PHONY : src/MultiThreading.cpp.obj
+
+src/MultiThreading.i: src/MultiThreading.cpp.i
+
+.PHONY : src/MultiThreading.i
+
+# target to preprocess a source file
+src/MultiThreading.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MultiThreading.cpp.i
+.PHONY : src/MultiThreading.cpp.i
+
+src/MultiThreading.s: src/MultiThreading.cpp.s
+
+.PHONY : src/MultiThreading.s
+
+# target to generate assembly for a file
+src/MultiThreading.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MultiThreading.cpp.s
+.PHONY : src/MultiThreading.cpp.s
+
 src/ReverseString.obj: src/ReverseString.cpp.obj
 
 .PHONY : src/ReverseString.obj
@@ -469,6 +496,9 @@ help:
 	@echo ... src/MergeSort.obj
 	@echo ... src/MergeSort.i
 	@echo ... src/MergeSort.s
+	@echo ... src/MultiThreading.obj
+	@echo ... src/MultiThreading.i
+	@echo ... src/MultiThreading.s
 	@echo ... src/ReverseString.obj
 	@echo ... src/ReverseString.i
 	@echo ... src/ReverseString.s
