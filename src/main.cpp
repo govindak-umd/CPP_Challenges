@@ -12,6 +12,8 @@
 #include"../include/BubbleSort.h"
 #include"../include/HeapSort.h"
 #include"../include/ReverseString.h"
+#include"../include/MultiThreading.h"
+
 int main(){
 
     // Question 1
@@ -149,6 +151,16 @@ int main(){
 
     // Question 14
 
+    MultiThreading multi_threading;
+
+    std::thread my_thread[multi_threading.n];
+
+    for(int i =0; i < multi_threading.n; i ++ ) {
+        my_thread[i] =  std::thread(&MultiThreading::testFunc, multi_threading, i);
+    }
+    for(int i =0; i < multi_threading.n; i ++ ) {
+        my_thread[i].join();
+    }
 
 
 
