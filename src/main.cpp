@@ -14,6 +14,7 @@
 #include"../include/ReverseString.h"
 #include"../include/MultiThreading.h"
 #include"../include/SieveEratosthenes.h"
+#include"../include/CoinDenominations.h"
 
 int main(){
 
@@ -165,8 +166,17 @@ int main(){
 
     // Question 15
 
-    SieveEratosthenes sieve_eratosthenes;
-    sieve_eratosthenes.findPrimes();
+//    SieveEratosthenes sieve_eratosthenes;
+//    sieve_eratosthenes.findPrimes();
 
+    // Question 16
+
+    CoinDenominations coin_denom;
+    std::vector<int> denominations{25,10,5,1};
+    int cents = 78;
+    coin_denom.prepareArray();
+    int start = coin_denom.determineGreatest(cents);
+    coin_denom.getDenominations(cents,start);
+    coin_denom.printArray();
     return 0;
 }

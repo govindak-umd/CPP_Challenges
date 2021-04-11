@@ -196,6 +196,33 @@ src/BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.s
 .PHONY : src/BubbleSort.cpp.s
 
+src/CoinDenominations.obj: src/CoinDenominations.cpp.obj
+
+.PHONY : src/CoinDenominations.obj
+
+# target to build an object file
+src/CoinDenominations.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.obj
+.PHONY : src/CoinDenominations.cpp.obj
+
+src/CoinDenominations.i: src/CoinDenominations.cpp.i
+
+.PHONY : src/CoinDenominations.i
+
+# target to preprocess a source file
+src/CoinDenominations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.i
+.PHONY : src/CoinDenominations.cpp.i
+
+src/CoinDenominations.s: src/CoinDenominations.cpp.s
+
+.PHONY : src/CoinDenominations.s
+
+# target to generate assembly for a file
+src/CoinDenominations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.s
+.PHONY : src/CoinDenominations.cpp.s
+
 src/DoublyLinkedList.obj: src/DoublyLinkedList.cpp.obj
 
 .PHONY : src/DoublyLinkedList.obj
@@ -508,6 +535,9 @@ help:
 	@echo ... src/BubbleSort.obj
 	@echo ... src/BubbleSort.i
 	@echo ... src/BubbleSort.s
+	@echo ... src/CoinDenominations.obj
+	@echo ... src/CoinDenominations.i
+	@echo ... src/CoinDenominations.s
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s

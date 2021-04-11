@@ -26,6 +26,12 @@ C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
 iostream
 -
 
+C:/Users/govin/Desktop/CPP_Challenges/include/CoinDenominations.h
+iostream
+-
+vector
+-
+
 C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
 iostream
 -
@@ -124,9 +130,9 @@ algorithm
 string
 -
 
-C:/Users/govin/Desktop/CPP_Challenges/src/SieveEratosthenes.cpp
-../include/SieveEratosthenes.h
-C:/Users/govin/Desktop/CPP_Challenges/include/SieveEratosthenes.h
+C:/Users/govin/Desktop/CPP_Challenges/src/CoinDenominations.cpp
+../include/CoinDenominations.h
+C:/Users/govin/Desktop/CPP_Challenges/include/CoinDenominations.h
 
 C:/Users/govin/Desktop/CPP_Challenges/src/main.cpp
 ../include/q_1.h
@@ -161,4 +167,6 @@ C:/Users/govin/Desktop/CPP_Challenges/include/ReverseString.h
 C:/Users/govin/Desktop/CPP_Challenges/include/MultiThreading.h
 ../include/SieveEratosthenes.h
 C:/Users/govin/Desktop/CPP_Challenges/include/SieveEratosthenes.h
+../include/CoinDenominations.h
+C:/Users/govin/Desktop/CPP_Challenges/include/CoinDenominations.h
 
