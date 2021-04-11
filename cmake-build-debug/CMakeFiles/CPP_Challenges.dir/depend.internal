@@ -24,6 +24,9 @@ CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj
 CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
  C:/Users/govin/Desktop/CPP_Challenges/src/MergeSort.cpp
+CMakeFiles/CPP_Challenges.dir/src/MultiThreading.cpp.obj
+ C:/Users/govin/Desktop/CPP_Challenges/include/MultiThreading.h
+ C:/Users/govin/Desktop/CPP_Challenges/src/MultiThreading.cpp
 CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/ReverseString.h
  C:/Users/govin/Desktop/CPP_Challenges/src/ReverseString.cpp
@@ -43,6 +46,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/MultiThreading.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
  C:/Users/govin/Desktop/CPP_Challenges/include/ReverseString.h
  C:/Users/govin/Desktop/CPP_Challenges/include/TaskSchedule.h

@@ -56,6 +56,12 @@ C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
 iostream
 -
 
+C:/Users/govin/Desktop/CPP_Challenges/include/MultiThreading.h
+iostream
+-
+thread
+-
+
 C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
 iostream
 -
@@ -139,4 +145,6 @@ C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
 C:/Users/govin/Desktop/CPP_Challenges/include/HeapSort.h
 ../include/ReverseString.h
 C:/Users/govin/Desktop/CPP_Challenges/include/ReverseString.h
+../include/MultiThreading.h
+C:/Users/govin/Desktop/CPP_Challenges/include/MultiThreading.h
 
