@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/MultiThreading.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.obj"
+  "CMakeFiles/CPP_Challenges.dir/src/SieveEratosthenes.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/TaskSchedule.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj"

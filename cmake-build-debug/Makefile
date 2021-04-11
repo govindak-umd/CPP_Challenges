@@ -385,6 +385,33 @@ src/ReverseString.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.s
 .PHONY : src/ReverseString.cpp.s
 
+src/SieveEratosthenes.obj: src/SieveEratosthenes.cpp.obj
+
+.PHONY : src/SieveEratosthenes.obj
+
+# target to build an object file
+src/SieveEratosthenes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/SieveEratosthenes.cpp.obj
+.PHONY : src/SieveEratosthenes.cpp.obj
+
+src/SieveEratosthenes.i: src/SieveEratosthenes.cpp.i
+
+.PHONY : src/SieveEratosthenes.i
+
+# target to preprocess a source file
+src/SieveEratosthenes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/SieveEratosthenes.cpp.i
+.PHONY : src/SieveEratosthenes.cpp.i
+
+src/SieveEratosthenes.s: src/SieveEratosthenes.cpp.s
+
+.PHONY : src/SieveEratosthenes.s
+
+# target to generate assembly for a file
+src/SieveEratosthenes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/SieveEratosthenes.cpp.s
+.PHONY : src/SieveEratosthenes.cpp.s
+
 src/TaskSchedule.obj: src/TaskSchedule.cpp.obj
 
 .PHONY : src/TaskSchedule.obj
@@ -502,6 +529,9 @@ help:
 	@echo ... src/ReverseString.obj
 	@echo ... src/ReverseString.i
 	@echo ... src/ReverseString.s
+	@echo ... src/SieveEratosthenes.obj
+	@echo ... src/SieveEratosthenes.i
+	@echo ... src/SieveEratosthenes.s
 	@echo ... src/TaskSchedule.obj
 	@echo ... src/TaskSchedule.i
 	@echo ... src/TaskSchedule.s

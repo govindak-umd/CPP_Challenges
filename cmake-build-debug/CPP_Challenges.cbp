@@ -109,6 +109,9 @@
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/ReverseString.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/SieveEratosthenes.cpp">
+			<Option target="CPP_Challenges"/>
+		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/TaskSchedule.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
