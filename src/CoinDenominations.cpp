@@ -12,26 +12,55 @@ int CoinDenominations::determineGreatest(int price) {
     return 0;
 }
 
-void CoinDenominations::getDenominations(int cost, int start){
+void CoinDenominations::getDenominations(int cost, int start, int sum){
+
 }
 
 void CoinDenominations::prepareArray(){
-    for (int i = 0; i < 94; i++) {
-        for (int j = 0; j < 4; j++) {
-            my_arr[i][j] = -10;
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 10; j++) {
+            for (int k = 0; k < 20; k++) {
+                for (int l = 0; l < 100; l++) {
+                    my_arr[i][j][k][l] = -1;
+                }
+            }
+        }
+    }
+}
+
+void CoinDenominations::prepareSumArray(){
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 10; j++) {
+            for (int k = 0; k < 20; k++) {
+                for (int l = 0; l < 100; l++) {
+                    sum_arr[i][j][k][l] = 0;
+                }
+            }
         }
     }
 }
 
 void CoinDenominations::printArray(){
-    for (int i = 0; i < 94; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            if (my_arr[i][j] >=0){
-                std::cout << "Element at my_arr[" << i
-                          << "][" << j << "]: ";
-                std::cout << my_arr[i][j] << std::endl;
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 10; j++) {
+            for (int k = 0; k < 20; k++) {
+                for (int l = 0; l < 100; l++) {
+                    if(my_arr[i][j][k][l] > 0)
+                        std::cout << i <<" " << j << " " <<  k <<" " <<" > " << l << my_arr[i][j][k][l] << std::endl;
+                }
+            }
+        }
+    }
+}
+
+void CoinDenominations::printSumArray(){
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 10; j++) {
+            for (int k = 0; k < 20; k++) {
+                for (int l = 0; l < 100; l++) {
+                    if(sum_arr[i][j][k][l] > 0)
+                        std::cout << i <<" " << j << " " <<  k <<" " << l <<" > " << sum_arr[i][j][k][l] << std::endl;
+                }
             }
         }
     }

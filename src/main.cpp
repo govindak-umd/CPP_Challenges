@@ -174,9 +174,11 @@ int main(){
     CoinDenominations coin_denom;
     std::vector<int> denominations{25,10,5,1};
     int cents = 78;
+    coin_denom.prepareSumArray();
     coin_denom.prepareArray();
     int start = coin_denom.determineGreatest(cents);
-    coin_denom.getDenominations(cents,start);
-    coin_denom.printArray();
+    coin_denom.getDenominations(cents,start, 0);
+    coin_denom.printSumArray();
+//    coin_denom.printArray();
     return 0;
 }
