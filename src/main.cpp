@@ -165,6 +165,8 @@ int main(){
 
     // Question 15
 
+    SieveEratosthenes sieve_eratosthenes;
+    sieve_eratosthenes.findPrimes();
 
     return 0;
 }
