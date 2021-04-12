@@ -172,7 +172,7 @@ int main(){
 
     // Question 16
 
-    // This one follows the top down Dynamic Programming approach
+    // This one follows the Top Down Dynamic Programming approach
 
 //    CoinDenominationsTD coin_denom;
 //    std::vector<int> denominations{25,10,5,1};
@@ -180,6 +180,17 @@ int main(){
 //    int m = denominations.size();
 //    int result = coin_denom.countMin(denominations, m, n);
 //    std::cout << "The number of coins needed are : " << result << std::endl;
+
+    // Question 17
+
+    // This one follows the Bottom Up Dynamic Programming approach
+
+    CoinDenominationsBU coin_denom;
+    std::vector<int> denominations{1,2,5};
+    int n = 11;
+    int m = denominations.size();
+    int result = coin_denom.createTable(denominations, m, n);
+    std::cout << "The number of coins needed are : " << result << std::endl;
 
     return 0;
 }
