@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(include)
 
 add_executable(CPP_Challenges
+        src/CoinDenominationsBU.cpp
         src/CoinDenominationsTD.cpp
         src/SieveEratosthenes.cpp
         src/MultiThreading.cpp

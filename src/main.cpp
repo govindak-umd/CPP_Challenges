@@ -15,6 +15,7 @@
 #include"../include/MultiThreading.h"
 #include"../include/SieveEratosthenes.h"
 #include"../include/CoinDenominationsTD.h"
+#include"../include/CoinDenominationsBU.h"
 
 int main(){
 
@@ -173,13 +174,12 @@ int main(){
 
     // This one follows the top down Dynamic Programming approach
 
-    CoinDenominationsTD coin_denom;
+//    CoinDenominationsTD coin_denom;
+//    std::vector<int> denominations{25,10,5,1};
+//    int n = 11;
+//    int m = denominations.size();
+//    int result = coin_denom.countMin(denominations, m, n);
+//    std::cout << "The number of coins needed are : " << result << std::endl;
 
-    std::vector<int> denominations{25,10,5,1};
-
-    int n = 11;
-    int m = denominations.size();
-    int result = coin_denom.countMin(denominations, m, n);
-    std::cout << "The number of coins needed are : " << result << std::endl;
     return 0;
 }
