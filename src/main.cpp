@@ -185,12 +185,12 @@ int main(){
 
     // This one follows the Bottom Up Dynamic Programming approach
 
-    CoinDenominationsBU coin_denom;
-    std::vector<int> denominations{1,2,5};
-    int n = 11;
-    int m = denominations.size();
-    int result = coin_denom.createTable(denominations, m, n);
-    std::cout << "The number of coins needed are : " << result << std::endl;
+//    CoinDenominationsBU coin_denom;
+//    std::vector<int> denominations{1,2,5};
+//    int n = 11;
+//    int m = denominations.size();
+//    int result = coin_denom.createTable(denominations, m, n);
+//    std::cout << "The number of coins needed are : " << result << std::endl;
 
     return 0;
 }
