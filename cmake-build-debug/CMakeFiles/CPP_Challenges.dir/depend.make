@@ -7,8 +7,8 @@ CMakeFiles/CPP_Challenges.dir/src/BinaryTreeNode.cpp.obj: ../src/BinaryTreeNode.
 CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.obj: ../include/BubbleSort.h
 CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.obj: ../src/BubbleSort.cpp
 
-CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.obj: ../include/CoinDenominations.h
-CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.obj: ../src/CoinDenominations.cpp
+CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj: ../include/CoinDenominationsTD.h
+CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj: ../src/CoinDenominationsTD.cpp
 
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/Node.h
@@ -46,7 +46,7 @@ CMakeFiles/CPP_Challenges.dir/src/VerticalBinaryTreeTraversal.cpp.obj: ../src/Ve
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/BinaryTreeNode.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/VerticalBinaryTreeTraversal.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/BubbleSort.h
-CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/CoinDenominations.h
+CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/CoinDenominationsTD.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/HeapSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/InsertionSort.h

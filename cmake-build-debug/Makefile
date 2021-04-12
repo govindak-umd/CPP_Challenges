@@ -196,32 +196,32 @@ src/BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.s
 .PHONY : src/BubbleSort.cpp.s
 
-src/CoinDenominations.obj: src/CoinDenominations.cpp.obj
+src/CoinDenominationsTD.obj: src/CoinDenominationsTD.cpp.obj
 
-.PHONY : src/CoinDenominations.obj
+.PHONY : src/CoinDenominationsTD.obj
 
 # target to build an object file
-src/CoinDenominations.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.obj
-.PHONY : src/CoinDenominations.cpp.obj
+src/CoinDenominationsTD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj
+.PHONY : src/CoinDenominationsTD.cpp.obj
 
-src/CoinDenominations.i: src/CoinDenominations.cpp.i
+src/CoinDenominationsTD.i: src/CoinDenominationsTD.cpp.i
 
-.PHONY : src/CoinDenominations.i
+.PHONY : src/CoinDenominationsTD.i
 
 # target to preprocess a source file
-src/CoinDenominations.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.i
-.PHONY : src/CoinDenominations.cpp.i
+src/CoinDenominationsTD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.i
+.PHONY : src/CoinDenominationsTD.cpp.i
 
-src/CoinDenominations.s: src/CoinDenominations.cpp.s
+src/CoinDenominationsTD.s: src/CoinDenominationsTD.cpp.s
 
-.PHONY : src/CoinDenominations.s
+.PHONY : src/CoinDenominationsTD.s
 
 # target to generate assembly for a file
-src/CoinDenominations.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominations.cpp.s
-.PHONY : src/CoinDenominations.cpp.s
+src/CoinDenominationsTD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.s
+.PHONY : src/CoinDenominationsTD.cpp.s
 
 src/DoublyLinkedList.obj: src/DoublyLinkedList.cpp.obj
 
@@ -535,9 +535,9 @@ help:
 	@echo ... src/BubbleSort.obj
 	@echo ... src/BubbleSort.i
 	@echo ... src/BubbleSort.s
-	@echo ... src/CoinDenominations.obj
-	@echo ... src/CoinDenominations.i
-	@echo ... src/CoinDenominations.s
+	@echo ... src/CoinDenominationsTD.obj
+	@echo ... src/CoinDenominationsTD.i
+	@echo ... src/CoinDenominationsTD.s
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s

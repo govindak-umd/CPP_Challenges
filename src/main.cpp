@@ -14,7 +14,7 @@
 #include"../include/ReverseString.h"
 #include"../include/MultiThreading.h"
 #include"../include/SieveEratosthenes.h"
-#include"../include/CoinDenominations.h"
+#include"../include/CoinDenominationsTD.h"
 
 int main(){
 
@@ -171,10 +171,15 @@ int main(){
 
     // Question 16
 
-    CoinDenominations coin_denom;
-    std::vector<int> denominations{25,10,5,1};
-    int cents = 78;
+    // This one follows the top down Dynamic Programming approach
 
-//    coin_denom.printArray();
+    CoinDenominationsTD coin_denom;
+
+    std::vector<int> denominations{25,10,5,1};
+
+    int n = 11;
+    int m = denominations.size();
+    int result = coin_denom.countMin(denominations, m, n);
+    std::cout << "The number of coins needed are : " << result << std::endl;
     return 0;
 }
