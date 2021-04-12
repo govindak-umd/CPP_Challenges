@@ -12,16 +12,11 @@ int CoinDenominationsBU::createTable(std::vector<int>denominations, int m , int 
 
     for (int i =1; i <= n; i++){
         for(int j =0; j<m; j++){
+
             if(denominations[j] <= i){
                 my_table[i] = std::min(my_table[i-denominations[j]] + 1,my_table[i]);
             }
         }
-    }
-
-    std::cout << "Table is  : " << std::endl;
-
-    for (int i =0; i <= n; i++){
-        std::cout << my_table[i] << " ";
     }
     std::cout << std::endl;
 

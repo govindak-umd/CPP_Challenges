@@ -187,7 +187,7 @@ int main(){
 
     CoinDenominationsBU coin_denom;
     std::vector<int> denominations{1,2,5};
-    int n = 18;
+    int n = 11;
     int m = denominations.size();
     int result = coin_denom.createTable(denominations, m, n);
     std::cout << "The number of coins needed are : " << result << std::endl;
