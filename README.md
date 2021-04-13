@@ -21,7 +21,9 @@ This repository is used to solve some C++ Challenges
 | Question 15 |*SieveEratosthenes.h ,SieveEratosthenes.cpp*| Sieve of Eratosthenes examples| [Reference for Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)|
 | Question 16 |*CoinDenominationsTD.h ,CoinDenominationsTD.cpp*| Find number of coin changes **[TOP DOWN APPROACH]** | [A great reference for Top Down vs Bottom up approach](https://www.youtube.com/watch?v=jgiZlGzXMBw)|
 | Question 17 |*CoinDenominationsBU.h ,CoinDenominationsBU.cpp*| Find number of coin changes **[BOTTOM UP APPROACH]** | [A great reference for Top Down vs Bottom up approach](https://www.youtube.com/watch?v=jgiZlGzXMBw)|
-| Question 18 |*LongestCommonSubsequence.h ,LongestCommonSubsequence.cpp*| Find the longest common subsequence | [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
+| Question 18 |*LongestCommonSubsequenceTD.h ,LongestCommonSubsequenceTD.cpp*| Find the longest common subsequence **[TOP DOWN APPROACH]**| [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
+| Question 18 |*LongestCommonSubsequenceBU.h ,LongestCommonSubsequenceBU.cpp*| Find the longest common subsequence **[BOTTOM UP APPROACH]** | [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
+
 
 ## Code Challenges:
 

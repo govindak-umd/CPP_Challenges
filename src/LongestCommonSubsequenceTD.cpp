@@ -1,6 +1,6 @@
-#include"../include/LongestCommonSubsequence.h"
+#include"../include/LongestCommonSubsequenceTD.h"
 
-int LongestCommonSubsequence::findLCS(std::string string_a,
+int LongestCommonSubsequenceTD::findLCS(std::string string_a,
                                        std::string string_b
                                        , int len_a, int len_b){
 

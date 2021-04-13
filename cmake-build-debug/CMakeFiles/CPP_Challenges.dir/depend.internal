@@ -27,9 +27,12 @@ CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
  C:/Users/govin/Desktop/CPP_Challenges/src/LinkedList.cpp
-CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.obj
- C:/Users/govin/Desktop/CPP_Challenges/include/LongestCommonSubsequence.h
- C:/Users/govin/Desktop/CPP_Challenges/src/LongestCommonSubsequence.cpp
+CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceBU.cpp.obj
+ C:/Users/govin/Desktop/CPP_Challenges/include/LongestCommonSubsequenceBU.h
+ C:/Users/govin/Desktop/CPP_Challenges/src/LongestCommonSubsequenceBU.cpp
+CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.obj
+ C:/Users/govin/Desktop/CPP_Challenges/include/LongestCommonSubsequenceTD.h
+ C:/Users/govin/Desktop/CPP_Challenges/src/LongestCommonSubsequenceTD.cpp
 CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
  C:/Users/govin/Desktop/CPP_Challenges/src/MergeSort.cpp
@@ -59,7 +62,8 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/HeapSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/LinkedList.h
- C:/Users/govin/Desktop/CPP_Challenges/include/LongestCommonSubsequence.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/LongestCommonSubsequenceBU.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/LongestCommonSubsequenceTD.h
  C:/Users/govin/Desktop/CPP_Challenges/include/MergeSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/MultiThreading.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h

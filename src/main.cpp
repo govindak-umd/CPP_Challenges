@@ -16,7 +16,8 @@
 #include"../include/SieveEratosthenes.h"
 #include"../include/CoinDenominationsTD.h"
 #include"../include/CoinDenominationsBU.h"
-#include"../include/LongestCommonSubsequence.h"
+#include"../include/LongestCommonSubsequenceTD.h"
+#include"../include/LongestCommonSubsequenceBU.h"
 
 int main(){
 
@@ -197,7 +198,7 @@ int main(){
 
     // This function follows the Top Down Approach
 
-    LongestCommonSubsequence lcs;
+    LongestCommonSubsequenceTD lcs;
     std::string string_a = "AGGTAB";
     std::string  string_b = "GXTXAYB";
 
@@ -206,6 +207,12 @@ int main(){
 
     int lcs_val = lcs.findLCS(string_a, string_b, len_a, len_b);
     std::cout << "Longest Common Subsequence is  : " << lcs_val << std::endl;
+
+    //Question 19
+
+    // This function follows the Bottom Up Approach
+
+//    LongestCommonSubsequenceBU lcs;
 
     return 0;
 }

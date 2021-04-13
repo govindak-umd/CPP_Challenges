@@ -358,32 +358,59 @@ src/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.s
 .PHONY : src/LinkedList.cpp.s
 
-src/LongestCommonSubsequence.obj: src/LongestCommonSubsequence.cpp.obj
+src/LongestCommonSubsequenceBU.obj: src/LongestCommonSubsequenceBU.cpp.obj
 
-.PHONY : src/LongestCommonSubsequence.obj
+.PHONY : src/LongestCommonSubsequenceBU.obj
 
 # target to build an object file
-src/LongestCommonSubsequence.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.obj
-.PHONY : src/LongestCommonSubsequence.cpp.obj
+src/LongestCommonSubsequenceBU.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceBU.cpp.obj
+.PHONY : src/LongestCommonSubsequenceBU.cpp.obj
 
-src/LongestCommonSubsequence.i: src/LongestCommonSubsequence.cpp.i
+src/LongestCommonSubsequenceBU.i: src/LongestCommonSubsequenceBU.cpp.i
 
-.PHONY : src/LongestCommonSubsequence.i
+.PHONY : src/LongestCommonSubsequenceBU.i
 
 # target to preprocess a source file
-src/LongestCommonSubsequence.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.i
-.PHONY : src/LongestCommonSubsequence.cpp.i
+src/LongestCommonSubsequenceBU.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceBU.cpp.i
+.PHONY : src/LongestCommonSubsequenceBU.cpp.i
 
-src/LongestCommonSubsequence.s: src/LongestCommonSubsequence.cpp.s
+src/LongestCommonSubsequenceBU.s: src/LongestCommonSubsequenceBU.cpp.s
 
-.PHONY : src/LongestCommonSubsequence.s
+.PHONY : src/LongestCommonSubsequenceBU.s
 
 # target to generate assembly for a file
-src/LongestCommonSubsequence.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.s
-.PHONY : src/LongestCommonSubsequence.cpp.s
+src/LongestCommonSubsequenceBU.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceBU.cpp.s
+.PHONY : src/LongestCommonSubsequenceBU.cpp.s
+
+src/LongestCommonSubsequenceTD.obj: src/LongestCommonSubsequenceTD.cpp.obj
+
+.PHONY : src/LongestCommonSubsequenceTD.obj
+
+# target to build an object file
+src/LongestCommonSubsequenceTD.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.obj
+.PHONY : src/LongestCommonSubsequenceTD.cpp.obj
+
+src/LongestCommonSubsequenceTD.i: src/LongestCommonSubsequenceTD.cpp.i
+
+.PHONY : src/LongestCommonSubsequenceTD.i
+
+# target to preprocess a source file
+src/LongestCommonSubsequenceTD.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.i
+.PHONY : src/LongestCommonSubsequenceTD.cpp.i
+
+src/LongestCommonSubsequenceTD.s: src/LongestCommonSubsequenceTD.cpp.s
+
+.PHONY : src/LongestCommonSubsequenceTD.s
+
+# target to generate assembly for a file
+src/LongestCommonSubsequenceTD.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.s
+.PHONY : src/LongestCommonSubsequenceTD.cpp.s
 
 src/MergeSort.obj: src/MergeSort.cpp.obj
 
@@ -607,9 +634,12 @@ help:
 	@echo ... src/LinkedList.obj
 	@echo ... src/LinkedList.i
 	@echo ... src/LinkedList.s
-	@echo ... src/LongestCommonSubsequence.obj
-	@echo ... src/LongestCommonSubsequence.i
-	@echo ... src/LongestCommonSubsequence.s
+	@echo ... src/LongestCommonSubsequenceBU.obj
+	@echo ... src/LongestCommonSubsequenceBU.i
+	@echo ... src/LongestCommonSubsequenceBU.s
+	@echo ... src/LongestCommonSubsequenceTD.obj
+	@echo ... src/LongestCommonSubsequenceTD.i
+	@echo ... src/LongestCommonSubsequenceTD.s
 	@echo ... src/MergeSort.obj
 	@echo ... src/MergeSort.i
 	@echo ... src/MergeSort.s
