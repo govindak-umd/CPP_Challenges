@@ -16,6 +16,7 @@
 #include"../include/SieveEratosthenes.h"
 #include"../include/CoinDenominationsTD.h"
 #include"../include/CoinDenominationsBU.h"
+#include"../include/LongestCommonSubsequence.h"
 
 int main(){
 

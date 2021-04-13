@@ -106,6 +106,9 @@
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/LinkedList.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/LongestCommonSubsequence.cpp">
+			<Option target="CPP_Challenges"/>
+		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/MergeSort.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>

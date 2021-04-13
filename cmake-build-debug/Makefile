@@ -358,6 +358,33 @@ src/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.s
 .PHONY : src/LinkedList.cpp.s
 
+src/LongestCommonSubsequence.obj: src/LongestCommonSubsequence.cpp.obj
+
+.PHONY : src/LongestCommonSubsequence.obj
+
+# target to build an object file
+src/LongestCommonSubsequence.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.obj
+.PHONY : src/LongestCommonSubsequence.cpp.obj
+
+src/LongestCommonSubsequence.i: src/LongestCommonSubsequence.cpp.i
+
+.PHONY : src/LongestCommonSubsequence.i
+
+# target to preprocess a source file
+src/LongestCommonSubsequence.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.i
+.PHONY : src/LongestCommonSubsequence.cpp.i
+
+src/LongestCommonSubsequence.s: src/LongestCommonSubsequence.cpp.s
+
+.PHONY : src/LongestCommonSubsequence.s
+
+# target to generate assembly for a file
+src/LongestCommonSubsequence.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.s
+.PHONY : src/LongestCommonSubsequence.cpp.s
+
 src/MergeSort.obj: src/MergeSort.cpp.obj
 
 .PHONY : src/MergeSort.obj
@@ -580,6 +607,9 @@ help:
 	@echo ... src/LinkedList.obj
 	@echo ... src/LinkedList.i
 	@echo ... src/LinkedList.s
+	@echo ... src/LongestCommonSubsequence.obj
+	@echo ... src/LongestCommonSubsequence.i
+	@echo ... src/LongestCommonSubsequence.s
 	@echo ... src/MergeSort.obj
 	@echo ... src/MergeSort.i
 	@echo ... src/MergeSort.s
