@@ -27,6 +27,9 @@ CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: ../include/LinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: ../include/Node.h
 CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj: ../src/LinkedList.cpp
 
+CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.obj: ../include/LongestCommonSubsequence.h
+CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequence.cpp.obj: ../src/LongestCommonSubsequence.cpp
+
 CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj: ../include/MergeSort.h
 CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj: ../src/MergeSort.cpp
 
@@ -55,6 +58,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/HeapSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/InsertionSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LinkedList.h
+CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LongestCommonSubsequence.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/MergeSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/MultiThreading.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/Node.h

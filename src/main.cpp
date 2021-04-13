@@ -193,5 +193,19 @@ int main(){
 //    int result = coin_denom.createTable(denominations, m, n);
 //    std::cout << "The number of coins needed are : " << result << std::endl;
 
+    //Question 18
+
+    // This function follows the Top Down Approach
+
+    LongestCommonSubsequence lcs;
+    std::string string_a = "AGGTAB";
+    std::string  string_b = "GXTXAYB";
+
+    int len_a = string_a.length();
+    int len_b = string_b.length();
+
+    int lcs_val = lcs.findLCS(string_a, string_b, len_a, len_b);
+    std::cout << "Longest Common Subsequence is  : " << lcs_val << std::endl;
+
     return 0;
 }
