@@ -75,6 +75,14 @@ void LongestCommonSubsequenceTD::viewLookupTable(int len_a, int len_b){
     }
 }
 
+/**
+ * Prints the LCS
+ * @param string_a
+ * @param string_b
+ * @param len_a
+ * @param len_b
+ * @return
+ */
 std::string LongestCommonSubsequenceTD::printLCS(std::string string_a,
                                           std::string string_b,
                                           int len_a,
