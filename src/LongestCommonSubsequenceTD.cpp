@@ -1,5 +1,14 @@
 #include"../include/LongestCommonSubsequenceTD.h"
 
+/**
+ * Function to find the length of the
+ * longest common subsequence
+ * @param string_a
+ * @param string_b
+ * @param len_a
+ * @param len_b
+ * @return
+ */
 int LongestCommonSubsequenceTD::findLCS(std::string string_a,
                                        std::string string_b
                                        , int len_a, int len_b){
@@ -16,4 +25,48 @@ int LongestCommonSubsequenceTD::findLCS(std::string string_a,
                     findLCS(string_a, string_b, len_a, len_b - 1));
 
 
+}
+
+/**
+ * Filling it to backtrack and find the
+ * exact longest common subsequence
+ * @param string_a
+ * @param string_b
+ * @param len_a
+ * @param len_b
+ */
+void LongestCommonSubsequenceTD::fillMaxLookupTable(std::string string_a,
+                                                    std::string string_b,
+                                                    int len_a,
+                                                    int len_b){
+
+    for(int i=0; i<=len_a; i++){
+        for(int j=0; j<=len_b; j++){
+            lcs_lookup_table[i][j] = 0;
+        }
+    }
+
+    for(int i=1; i<=len_a; i++){
+        for(int j=1; j<=len_b; j++){
+            if(string_a[i-1] == string_b[j-1]){
+                lcs_lookup_table[i][j] = 1 + lcs_lookup_table[i-1][j-1] ;
+            }
+            else{
+                lcs_lookup_table[i][j] = std::max(lcs_lookup_table[i][j-1],
+                                             lcs_lookup_table[i-1][j]);
+            }
+        }
+    }
+
+}
+
+
+
+void LongestCommonSubsequenceTD::viewLookupTable(int len_a, int len_b){
+    for(int i=0; i<=len_a; i++){
+    for(int j=0; j<=len_b; j++){
+    std::cout << lcs_lookup_table[i][j] << " ";
+    }
+    std::cout << std::endl;
+    }
 }

@@ -6,8 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(include)
 
 add_executable(CPP_Challenges
-        src/LongestCommonSubsequenceBU.cpp
         src/LongestCommonSubsequenceTD.cpp
+        src/LongestCommonSubsequenceBU.cpp
         src/CoinDenominationsBU.cpp
         src/CoinDenominationsTD.cpp
         src/SieveEratosthenes.cpp

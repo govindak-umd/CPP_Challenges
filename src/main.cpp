@@ -199,11 +199,16 @@ int main(){
     // This function follows the Top Down Approach
 
     LongestCommonSubsequenceTD lcs;
-    std::string string_a = "AGGTAB";
-    std::string  string_b = "GXTXAYB";
+    std::string string_a = "XMJYAUZ";
+    std::string  string_b = "MZJAWXU";
 
     int len_a = string_a.length();
     int len_b = string_b.length();
+
+    // Form and Print the lookup table
+
+    lcs.fillMaxLookupTable(string_a, string_b, len_a, len_b);
+    lcs.viewLookupTable(len_a, len_b);
 
     int lcs_val = lcs.findLCS(string_a, string_b, len_a, len_b);
     std::cout << "Longest Common Subsequence is  : " << lcs_val << std::endl;
