@@ -250,6 +250,33 @@ src/CoinDenominationsTD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.s
 .PHONY : src/CoinDenominationsTD.cpp.s
 
+src/DiceThrow.obj: src/DiceThrow.cpp.obj
+
+.PHONY : src/DiceThrow.obj
+
+# target to build an object file
+src/DiceThrow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.obj
+.PHONY : src/DiceThrow.cpp.obj
+
+src/DiceThrow.i: src/DiceThrow.cpp.i
+
+.PHONY : src/DiceThrow.i
+
+# target to preprocess a source file
+src/DiceThrow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.i
+.PHONY : src/DiceThrow.cpp.i
+
+src/DiceThrow.s: src/DiceThrow.cpp.s
+
+.PHONY : src/DiceThrow.s
+
+# target to generate assembly for a file
+src/DiceThrow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.s
+.PHONY : src/DiceThrow.cpp.s
+
 src/DoublyLinkedList.obj: src/DoublyLinkedList.cpp.obj
 
 .PHONY : src/DoublyLinkedList.obj
@@ -622,6 +649,9 @@ help:
 	@echo ... src/CoinDenominationsTD.obj
 	@echo ... src/CoinDenominationsTD.i
 	@echo ... src/CoinDenominationsTD.s
+	@echo ... src/DiceThrow.obj
+	@echo ... src/DiceThrow.i
+	@echo ... src/DiceThrow.s
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s

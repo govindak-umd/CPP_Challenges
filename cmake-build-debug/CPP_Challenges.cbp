@@ -94,6 +94,9 @@
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/CoinDenominationsTD.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/DiceThrow.cpp">
+			<Option target="CPP_Challenges"/>
+		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/DoublyLinkedList.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>

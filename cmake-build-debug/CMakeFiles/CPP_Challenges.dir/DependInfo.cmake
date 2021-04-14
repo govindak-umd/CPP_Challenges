@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/govin/Desktop/CPP_Challenges/src/BubbleSort.cpp" "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CMakeFiles/CPP_Challenges.dir/src/BubbleSort.cpp.obj"
   "C:/Users/govin/Desktop/CPP_Challenges/src/CoinDenominationsBU.cpp" "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsBU.cpp.obj"
   "C:/Users/govin/Desktop/CPP_Challenges/src/CoinDenominationsTD.cpp" "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj"
+  "C:/Users/govin/Desktop/CPP_Challenges/src/DiceThrow.cpp" "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.obj"
   "C:/Users/govin/Desktop/CPP_Challenges/src/DoublyLinkedList.cpp" "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj"
   "C:/Users/govin/Desktop/CPP_Challenges/src/HeapSort.cpp" "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CMakeFiles/CPP_Challenges.dir/src/HeapSort.cpp.obj"
   "C:/Users/govin/Desktop/CPP_Challenges/src/InsertionSort.cpp" "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.obj"

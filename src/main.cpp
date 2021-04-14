@@ -18,6 +18,7 @@
 #include"../include/CoinDenominationsBU.h"
 #include"../include/LongestCommonSubsequenceTD.h"
 #include"../include/LongestCommonSubsequenceBU.h"
+#include"../include/DiceThrow.h"
 
 int main(){
 
