@@ -61,7 +61,11 @@ void LongestCommonSubsequenceTD::fillMaxLookupTable(std::string string_a,
 }
 
 
-
+/**
+ * Func to print the longest common subsequence
+ * @param len_a
+ * @param len_b
+ */
 void LongestCommonSubsequenceTD::viewLookupTable(int len_a, int len_b){
     for(int i=0; i<=len_a; i++){
     for(int j=0; j<=len_b; j++){
