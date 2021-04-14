@@ -198,26 +198,38 @@ int main(){
 
     // This function follows the Top Down Approach
 
-    LongestCommonSubsequenceTD lcs;
+//    LongestCommonSubsequenceTD lcs;
+//    std::string string_a = "ABCDGH";
+//    std::string  string_b = "AEDFHR";
+//
+//    int len_a = string_a.length();
+//    int len_b = string_b.length();
+//
+//
+//    lcs.fillMaxLookupTable(string_a, string_b, len_a, len_b);
+//    lcs.viewLookupTable(len_a, len_b);
+//
+//    int lcs_len = lcs.findLCS(string_a, string_b, len_a, len_b);
+//    std::cout << "The length of the Longest Common Subsequence is  : " << lcs_len << std::endl;
+//    std::string lcs_string = lcs.printLCS(string_a, string_b, len_a, len_b);
+//    std::cout << "Longest Common Subsequence is  : " << lcs_string << std::endl;
+
+    //Question 19
+
+    // This function follows the Bottom Up Approach
+
+    LongestCommonSubsequenceBU lcs;
     std::string string_a = "ABCDGH";
     std::string  string_b = "AEDFHR";
 
     int len_a = string_a.length();
     int len_b = string_b.length();
 
-    // Form and Print the lookup table
-
     lcs.fillMaxLookupTable(string_a, string_b, len_a, len_b);
     lcs.viewLookupTable(len_a, len_b);
 
-    int lcs_len = lcs.findLCS(string_a, string_b, len_a, len_b);
-    std::cout << "The length of the Longest Common Subsequence is  : " << lcs_len << std::endl;
     std::string lcs_string = lcs.printLCS(string_a, string_b, len_a, len_b);
     std::cout << "Longest Common Subsequence is  : " << lcs_string << std::endl;
-
-    //Question 19
-
-    // This function follows the Bottom Up Approach
 
 //    LongestCommonSubsequenceBU lcs;
 
