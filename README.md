@@ -23,6 +23,7 @@ This repository is used to solve some C++ Challenges
 | Question 17 |*CoinDenominationsBU.h ,CoinDenominationsBU.cpp*| Find number of coin changes **[BOTTOM UP APPROACH]** | [A great reference for Top Down vs Bottom up approach](https://www.youtube.com/watch?v=jgiZlGzXMBw)|
 | Question 18 |*LongestCommonSubsequenceTD.h ,LongestCommonSubsequenceTD.cpp*| Find the longest common subsequence **[TOP DOWN APPROACH]**| [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
 | Question 19 |*LongestCommonSubsequenceBU.h ,LongestCommonSubsequenceBU.cpp*| Find the longest common subsequence **[BOTTOM UP APPROACH]** | [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
+| Question 20 |*DiceThrow.h ,DiceThrow.cpp*|  Find total ways to achieve a given sum with n throws of dice having k faces ||
 
 
 ## Code Challenges:
