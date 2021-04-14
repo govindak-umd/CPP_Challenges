@@ -219,20 +219,35 @@ int main(){
 
     // This function follows the Bottom Up Approach
 
-    LongestCommonSubsequenceBU lcs;
-    std::string string_a = "ABCDGH";
-    std::string  string_b = "AEDFHR";
-
-    int len_a = string_a.length();
-    int len_b = string_b.length();
-
-    lcs.fillMaxLookupTable(string_a, string_b, len_a, len_b);
-    lcs.viewLookupTable(len_a, len_b);
-
-    std::string lcs_string = lcs.printLCS(string_a, string_b, len_a, len_b);
-    std::cout << "Longest Common Subsequence is  : " << lcs_string << std::endl;
-
 //    LongestCommonSubsequenceBU lcs;
+//    std::string string_a = "ABCDGH";
+//    std::string  string_b = "AEDFHR";
+//
+//    int len_a = string_a.length();
+//    int len_b = string_b.length();
+//
+//    lcs.fillMaxLookupTable(string_a, string_b, len_a, len_b);
+//    lcs.viewLookupTable(len_a, len_b);
+//
+//    std::string lcs_string = lcs.printLCS(string_a, string_b, len_a, len_b);
+//    std::cout << "Longest Common Subsequence is  : " << lcs_string << std::endl;
 
+    // Question 20
+
+    // This function is another example of dynamic programming
+    // and helps find the number of ways in which a sum can be
+    // obtained by throwing n dices with k faces
+
+    DiceThrow dice_throw;
+
+    int n, k, sum;
+
+    sum = 15; // Desired Sum
+    k = 6; // Number of Faces on the Dice
+    n = 4; // Number of dices
+
+    int num_ways = dice_throw.findSum(sum, k, n);
+
+    std::cout << "The number of ways in which the sum can be obtained is : " << num_ways << std::endl;
     return 0;
 }

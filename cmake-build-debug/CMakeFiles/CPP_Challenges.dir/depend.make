@@ -13,6 +13,9 @@ CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsBU.cpp.obj: ../src/CoinDenomi
 CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj: ../include/CoinDenominationsTD.h
 CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj: ../src/CoinDenominationsTD.cpp
 
+CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.obj: ../include/DiceThrow.h
+CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.obj: ../src/DiceThrow.cpp
+
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/Node.h
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../src/DoublyLinkedList.cpp
@@ -57,6 +60,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/VerticalBinaryTreeTra
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/BubbleSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/CoinDenominationsBU.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/CoinDenominationsTD.h
+CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DiceThrow.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DoublyLinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/HeapSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/InsertionSort.h

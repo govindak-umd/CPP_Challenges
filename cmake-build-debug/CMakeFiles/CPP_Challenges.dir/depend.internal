@@ -13,6 +13,9 @@ CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsBU.cpp.obj
 CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/CoinDenominationsTD.h
  C:/Users/govin/Desktop/CPP_Challenges/src/CoinDenominationsTD.cpp
+CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.obj
+ C:/Users/govin/Desktop/CPP_Challenges/include/DiceThrow.h
+ C:/Users/govin/Desktop/CPP_Challenges/src/DiceThrow.cpp
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/Node.h
@@ -58,6 +61,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
  C:/Users/govin/Desktop/CPP_Challenges/include/BubbleSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/CoinDenominationsBU.h
  C:/Users/govin/Desktop/CPP_Challenges/include/CoinDenominationsTD.h
+ C:/Users/govin/Desktop/CPP_Challenges/include/DiceThrow.h
  C:/Users/govin/Desktop/CPP_Challenges/include/DoublyLinkedList.h
  C:/Users/govin/Desktop/CPP_Challenges/include/HeapSort.h
  C:/Users/govin/Desktop/CPP_Challenges/include/InsertionSort.h
