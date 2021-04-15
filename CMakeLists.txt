@@ -27,3 +27,5 @@ add_executable(CPP_Challenges
         src/DoublyLinkedList.cpp
         src/LinkedList.cpp
         src/main.cpp)
+
+target_link_libraries(CPP_Challenges gtest gtest_main)

@@ -371,6 +371,9 @@ CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/build.make
+CPP_Challenges.exe: lib/libgtestd.a
+CPP_Challenges.exe: lib/libgtest_maind.a
+CPP_Challenges.exe: lib/libgtestd.a
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/linklibs.rsp
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/objects1.rsp
 CPP_Challenges.exe: CMakeFiles/CPP_Challenges.dir/link.txt

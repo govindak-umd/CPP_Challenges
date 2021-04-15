@@ -34,6 +34,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/lib/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/lib/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

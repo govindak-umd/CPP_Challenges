@@ -6,11 +6,3 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/govin/Desktop/CPP_Challenges/include/DiceThrow.h
-iostream
--
-
-C:/Users/govin/Desktop/CPP_Challenges/src/DiceThrow.cpp
-../include/DiceThrow.h
-C:/Users/govin/Desktop/CPP_Challenges/include/DiceThrow.h
-
