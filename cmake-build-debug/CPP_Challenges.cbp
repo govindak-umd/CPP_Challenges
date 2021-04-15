@@ -75,6 +75,64 @@
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP_Testing">
+				<Option output="C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CPP_Testing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/govin/Desktop/CPP_Challenges/include"/>
+					<Add directory="C:/Users/govin/Desktop/CPP_Challenges/lib/googletest/include"/>
+					<Add directory="C:/Users/govin/Desktop/CPP_Challenges/lib/googletest"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_Testing"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP_Testing/fast">
+				<Option output="C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/CPP_Testing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/govin/Desktop/CPP_Challenges/include"/>
+					<Add directory="C:/Users/govin/Desktop/CPP_Challenges/lib/googletest/include"/>
+					<Add directory="C:/Users/govin/Desktop/CPP_Challenges/lib/googletest"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP_Testing/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="install/local">
 				<Option working_dir="C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug"/>
 				<Option type="4"/>
@@ -100,16 +158,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
 					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/govin/Desktop/CPP_Challenges/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -356,6 +404,10 @@
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/DoublyLinkedList.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/DummyTest.cpp">
+			<Option target="CPP_Challenges"/>
+			<Option target="CPP_Testing"/>
+		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/HeapSort.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
@@ -391,6 +443,12 @@
 		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/main.cpp">
 			<Option target="CPP_Challenges"/>
+		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/test/main.cpp">
+			<Option target="CPP_Testing"/>
+		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/test/test_dummy.cpp">
+			<Option target="CPP_Testing"/>
 		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

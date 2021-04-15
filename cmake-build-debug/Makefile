@@ -87,6 +87,17 @@ install/strip/fast: preinstall/fast
 	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -121,17 +132,6 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -187,6 +187,19 @@ CPP_Challenges: cmake_check_build_system
 CPP_Challenges/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/build
 .PHONY : CPP_Challenges/fast
+
+#=============================================================================
+# Target rules for targets named CPP_Testing
+
+# Build rule for target.
+CPP_Testing: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CPP_Testing
+.PHONY : CPP_Testing
+
+# fast build rule for target.
+CPP_Testing/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/build
+.PHONY : CPP_Testing/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -401,6 +414,36 @@ src/DoublyLinkedList.s: src/DoublyLinkedList.cpp.s
 src/DoublyLinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.s
 .PHONY : src/DoublyLinkedList.cpp.s
+
+src/DummyTest.obj: src/DummyTest.cpp.obj
+
+.PHONY : src/DummyTest.obj
+
+# target to build an object file
+src/DummyTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DummyTest.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/src/DummyTest.cpp.obj
+.PHONY : src/DummyTest.cpp.obj
+
+src/DummyTest.i: src/DummyTest.cpp.i
+
+.PHONY : src/DummyTest.i
+
+# target to preprocess a source file
+src/DummyTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DummyTest.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/src/DummyTest.cpp.i
+.PHONY : src/DummyTest.cpp.i
+
+src/DummyTest.s: src/DummyTest.cpp.s
+
+.PHONY : src/DummyTest.s
+
+# target to generate assembly for a file
+src/DummyTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/DummyTest.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/src/DummyTest.cpp.s
+.PHONY : src/DummyTest.cpp.s
 
 src/HeapSort.obj: src/HeapSort.cpp.obj
 
@@ -726,6 +769,60 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+test/main.obj: test/main.cpp.obj
+
+.PHONY : test/main.obj
+
+# target to build an object file
+test/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/test/main.cpp.obj
+.PHONY : test/main.cpp.obj
+
+test/main.i: test/main.cpp.i
+
+.PHONY : test/main.i
+
+# target to preprocess a source file
+test/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/test/main.cpp.i
+.PHONY : test/main.cpp.i
+
+test/main.s: test/main.cpp.s
+
+.PHONY : test/main.s
+
+# target to generate assembly for a file
+test/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/test/main.cpp.s
+.PHONY : test/main.cpp.s
+
+test/test_dummy.obj: test/test_dummy.cpp.obj
+
+.PHONY : test/test_dummy.obj
+
+# target to build an object file
+test/test_dummy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/test/test_dummy.cpp.obj
+.PHONY : test/test_dummy.cpp.obj
+
+test/test_dummy.i: test/test_dummy.cpp.i
+
+.PHONY : test/test_dummy.i
+
+# target to preprocess a source file
+test/test_dummy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/test/test_dummy.cpp.i
+.PHONY : test/test_dummy.cpp.i
+
+test/test_dummy.s: test/test_dummy.cpp.s
+
+.PHONY : test/test_dummy.s
+
+# target to generate assembly for a file
+test/test_dummy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Testing.dir\build.make CMakeFiles/CPP_Testing.dir/test/test_dummy.cpp.s
+.PHONY : test/test_dummy.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -739,6 +836,7 @@ help:
 	@echo ... list_install_components
 	@echo ... rebuild_cache
 	@echo ... CPP_Challenges
+	@echo ... CPP_Testing
 	@echo ... gmock
 	@echo ... gmock_main
 	@echo ... gtest
@@ -761,6 +859,9 @@ help:
 	@echo ... src/DoublyLinkedList.obj
 	@echo ... src/DoublyLinkedList.i
 	@echo ... src/DoublyLinkedList.s
+	@echo ... src/DummyTest.obj
+	@echo ... src/DummyTest.i
+	@echo ... src/DummyTest.s
 	@echo ... src/HeapSort.obj
 	@echo ... src/HeapSort.i
 	@echo ... src/HeapSort.s
@@ -797,6 +898,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... test/main.obj
+	@echo ... test/main.i
+	@echo ... test/main.s
+	@echo ... test/test_dummy.obj
+	@echo ... test/test_dummy.i
+	@echo ... test/test_dummy.s
 .PHONY : help
 
 

@@ -9,6 +9,7 @@ add_subdirectory(lib)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 add_executable(CPP_Challenges
+        src/DummyTest.cpp
         src/DiceThrow.cpp
         src/LongestCommonSubsequenceTD.cpp
         src/LongestCommonSubsequenceBU.cpp
@@ -29,3 +30,12 @@ add_executable(CPP_Challenges
         src/main.cpp)
 
 target_link_libraries(CPP_Challenges gtest gtest_main)
+
+add_executable(CPP_Testing
+
+        src/DummyTest.cpp
+
+        test/main.cpp
+        test/test_dummy.cpp)
+
+target_link_libraries(CPP_Testing gtest gtest_main)

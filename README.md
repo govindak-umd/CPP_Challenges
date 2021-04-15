@@ -24,11 +24,13 @@ This repository is used to solve some C++ Challenges
 | Question 18 |*LongestCommonSubsequenceTD.h ,LongestCommonSubsequenceTD.cpp*| Find the longest common subsequence **[TOP DOWN APPROACH]**| [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
 | Question 19 |*LongestCommonSubsequenceBU.h ,LongestCommonSubsequenceBU.cpp*| Find the longest common subsequence **[BOTTOM UP APPROACH]** | [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
 | Question 20 |*DiceThrow.h ,DiceThrow.cpp*|  Find total ways to achieve a given sum with n throws of dice having k faces ||
+| Question 21 |*DummyTest.h ,DummyTest.cpp*|  Dummy func to test G tests||
 
 
 ## Code Challenges:
 
 - [Dynamic Programming Problems](https://www.geeksforgeeks.org/top-20-dynamic-programming-interview-questions/)
+- [Understanding Test cases](https://www.jetbrains.com/help/clion/creating-google-test-run-debug-configuration-for-test.html#gtest-config)
 - [Best link for C++ Challenges](https://www.techiedelight.com/data-structures-and-algorithms-interview-questions-stl/)
 - [Link 1 for challenges](https://cplusplus.happycodings.com/data-structures/index.html)
 - [Link 2 for challenges](https://www.cprogramming.com/challenge.html?inl=nv)

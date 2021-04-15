@@ -20,6 +20,9 @@ CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/DoublyLin
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../include/Node.h
 CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj: ../src/DoublyLinkedList.cpp
 
+CMakeFiles/CPP_Challenges.dir/src/DummyTest.cpp.obj: ../include/DummyTest.h
+CMakeFiles/CPP_Challenges.dir/src/DummyTest.cpp.obj: ../src/DummyTest.cpp
+
 CMakeFiles/CPP_Challenges.dir/src/HeapSort.cpp.obj: ../include/HeapSort.h
 CMakeFiles/CPP_Challenges.dir/src/HeapSort.cpp.obj: ../src/HeapSort.cpp
 
@@ -62,6 +65,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/CoinDenominationsBU.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/CoinDenominationsTD.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DiceThrow.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DoublyLinkedList.h
+CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/DummyTest.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/HeapSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/InsertionSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LinkedList.h

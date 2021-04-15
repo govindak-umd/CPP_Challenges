@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP_Challenges.dir/src/CoinDenominationsTD.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/DiceThrow.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/DoublyLinkedList.cpp.obj"
+  "CMakeFiles/CPP_Challenges.dir/src/DummyTest.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/HeapSort.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/InsertionSort.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj"

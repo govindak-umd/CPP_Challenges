@@ -6,3 +6,11 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/govin/Desktop/CPP_Challenges/include/DummyTest.h
+iostream
+-
+
+C:/Users/govin/Desktop/CPP_Challenges/src/DummyTest.cpp
+../include/DummyTest.h
+C:/Users/govin/Desktop/CPP_Challenges/include/DummyTest.h
+

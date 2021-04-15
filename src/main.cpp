@@ -19,6 +19,7 @@
 #include"../include/LongestCommonSubsequenceTD.h"
 #include"../include/LongestCommonSubsequenceBU.h"
 #include"../include/DiceThrow.h"
+#include"../include/DummyTest.h"
 
 int main(){
 
@@ -238,16 +239,24 @@ int main(){
     // and helps find the number of ways in which a sum can be
     // obtained by throwing n dices with k faces
 
-    DiceThrow dice_throw;
+//    DiceThrow dice_throw;
+//
+//    int n, k, sum;
+//
+//    sum = 15; // Desired Sum
+//    k = 6; // Number of Faces on the Dice
+//    n = 4; // Number of dices
+//
+//    int num_ways = dice_throw.findSum(sum, k, n);
+//
+//    std::cout << "The number of ways in which the sum can be obtained is : " << num_ways << std::endl;
 
-    int n, k, sum;
+    // Question 21
 
-    sum = 15; // Desired Sum
-    k = 6; // Number of Faces on the Dice
-    n = 4; // Number of dices
+    // This fucntion is purely for testing purposes.
 
-    int num_ways = dice_throw.findSum(sum, k, n);
+//    DummyTest dummyTest;
+//    std::cout << "The factorial is : " << dummyTest.findFactorial(5) << std::endl;
 
-    std::cout << "The number of ways in which the sum can be obtained is : " << num_ways << std::endl;
     return 0;
 }
