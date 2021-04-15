@@ -5,6 +5,9 @@ set(CMAKE_CXX_STANDARD 14)
 
 include_directories(include)
 
+add_subdirectory(lib)
+include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
+
 add_executable(CPP_Challenges
         src/DiceThrow.cpp
         src/LongestCommonSubsequenceTD.cpp
