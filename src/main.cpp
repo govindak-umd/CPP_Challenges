@@ -239,17 +239,17 @@ int main(){
     // and helps find the number of ways in which a sum can be
     // obtained by throwing n dices with k faces
 
-//    DiceThrow dice_throw;
-//
-//    int n, k, sum;
-//
-//    sum = 15; // Desired Sum
-//    k = 6; // Number of Faces on the Dice
-//    n = 4; // Number of dices
-//
-//    int num_ways = dice_throw.findSum(sum, k, n);
-//
-//    std::cout << "The number of ways in which the sum can be obtained is : " << num_ways << std::endl;
+    DiceThrow dice_throw;
+
+    int n, k, sum;
+
+    sum = 15; // Desired Sum
+    k = 6; // Number of Faces on the Dice
+    n = 4; // Number of dices
+
+    int num_ways = dice_throw.findSum(sum, k, n);
+
+    std::cout << "The number of ways in which the sum can be obtained is : " << num_ways << std::endl;
 
     // Question 21
 

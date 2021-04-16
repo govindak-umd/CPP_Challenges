@@ -2,12 +2,16 @@
 #include <gtest/gtest.h>
 
 class DummyTestFixture : public ::testing::Test{
+
 public:
+
     DummyTest dummyTest;
+
     void SetUp(){
         std::cout << "-----In SetUp-----" << std::endl;
 
     }
+
     void TearDown(){
         std::cout << "-----In TearDown-----" << std::endl;
     }
