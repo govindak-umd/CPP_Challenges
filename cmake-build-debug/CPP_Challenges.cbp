@@ -423,6 +423,9 @@
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/LongestCommonSubsequenceTD.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>
+		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/MatrixChainMultiplication.cpp">
+			<Option target="CPP_Challenges"/>
+		</Unit>
 		<Unit filename="C:/Users/govin/Desktop/CPP_Challenges/src/MergeSort.cpp">
 			<Option target="CPP_Challenges"/>
 		</Unit>

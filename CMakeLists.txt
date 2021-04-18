@@ -9,6 +9,7 @@ add_subdirectory(lib)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 add_executable(CPP_Challenges
+        src/MatrixChainMultiplication.cpp
         src/DummyTest.cpp
         src/DiceThrow.cpp
         src/LongestCommonSubsequenceTD.cpp

@@ -580,6 +580,33 @@ src/LongestCommonSubsequenceTD.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.s
 .PHONY : src/LongestCommonSubsequenceTD.cpp.s
 
+src/MatrixChainMultiplication.obj: src/MatrixChainMultiplication.cpp.obj
+
+.PHONY : src/MatrixChainMultiplication.obj
+
+# target to build an object file
+src/MatrixChainMultiplication.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MatrixChainMultiplication.cpp.obj
+.PHONY : src/MatrixChainMultiplication.cpp.obj
+
+src/MatrixChainMultiplication.i: src/MatrixChainMultiplication.cpp.i
+
+.PHONY : src/MatrixChainMultiplication.i
+
+# target to preprocess a source file
+src/MatrixChainMultiplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MatrixChainMultiplication.cpp.i
+.PHONY : src/MatrixChainMultiplication.cpp.i
+
+src/MatrixChainMultiplication.s: src/MatrixChainMultiplication.cpp.s
+
+.PHONY : src/MatrixChainMultiplication.s
+
+# target to generate assembly for a file
+src/MatrixChainMultiplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CPP_Challenges.dir\build.make CMakeFiles/CPP_Challenges.dir/src/MatrixChainMultiplication.cpp.s
+.PHONY : src/MatrixChainMultiplication.cpp.s
+
 src/MergeSort.obj: src/MergeSort.cpp.obj
 
 .PHONY : src/MergeSort.obj
@@ -877,6 +904,9 @@ help:
 	@echo ... src/LongestCommonSubsequenceTD.obj
 	@echo ... src/LongestCommonSubsequenceTD.i
 	@echo ... src/LongestCommonSubsequenceTD.s
+	@echo ... src/MatrixChainMultiplication.obj
+	@echo ... src/MatrixChainMultiplication.i
+	@echo ... src/MatrixChainMultiplication.s
 	@echo ... src/MergeSort.obj
 	@echo ... src/MergeSort.i
 	@echo ... src/MergeSort.s
