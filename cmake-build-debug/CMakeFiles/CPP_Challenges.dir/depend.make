@@ -39,6 +39,9 @@ CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceBU.cpp.obj: ../src/Lon
 CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.obj: ../include/LongestCommonSubsequenceTD.h
 CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.obj: ../src/LongestCommonSubsequenceTD.cpp
 
+CMakeFiles/CPP_Challenges.dir/src/MatrixChainMultiplication.cpp.obj: ../include/MatrixChainMultiplication.h
+CMakeFiles/CPP_Challenges.dir/src/MatrixChainMultiplication.cpp.obj: ../src/MatrixChainMultiplication.cpp
+
 CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj: ../include/MergeSort.h
 CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj: ../src/MergeSort.cpp
 
@@ -71,6 +74,7 @@ CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/InsertionSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LinkedList.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LongestCommonSubsequenceBU.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/LongestCommonSubsequenceTD.h
+CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/MatrixChainMultiplication.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/MergeSort.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/MultiThreading.h
 CMakeFiles/CPP_Challenges.dir/src/main.cpp.obj: ../include/Node.h

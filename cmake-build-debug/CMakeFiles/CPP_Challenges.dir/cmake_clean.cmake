@@ -11,7 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP_Challenges.dir/src/LinkedList.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceBU.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/LongestCommonSubsequenceTD.cpp.obj"
-  "CMakeFiles/CPP_Challenges.dir/src/MatrixChainMultiplication.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/MergeSort.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/MultiThreading.cpp.obj"
   "CMakeFiles/CPP_Challenges.dir/src/ReverseString.cpp.obj"

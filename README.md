@@ -25,8 +25,6 @@ This repository is used to solve some C++ Challenges
 | Question 19 |*LongestCommonSubsequenceBU.h ,LongestCommonSubsequenceBU.cpp*| Find the longest common subsequence **[BOTTOM UP APPROACH]** | [Reference to the Longest Common Subsequence](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) |
 | Question 20 |*DiceThrow.h ,DiceThrow.cpp*|  Find total ways to achieve a given sum with n throws of dice having k faces ||
 | Question 21 |*DummyTest.h ,DummyTest.cpp*|  Dummy func to test G tests||
-| Question 22 |*MatrixChainMultiplication.h ,MatrixChainMultiplication.cpp*|  Given a sequence of matrices, find the most efficient way to multiply these matrices together. The problem is not actually to perform the multiplications, but merely to decide in which order to perform the multiplications.||
-
 
 ## Code Challenges:
 

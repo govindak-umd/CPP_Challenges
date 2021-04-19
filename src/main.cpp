@@ -261,9 +261,6 @@ int main(){
 
     // Question 22
 
-    // Matrix Chain Multiplication
-
-
 
     return 0;
 }
